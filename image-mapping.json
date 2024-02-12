@@ -1,0 +1,429 @@
+{
+    "season-of-ghosts-bestiary": {
+        "I9BbG4LH6LP4zlhK": {
+            "actor": "modules/pf2e-ap196-the-summer-that-never-was/assets/tokens/Phantom%20Boar.webp",
+            "token": {
+                "img": "modules/pf2e-ap196-the-summer-that-never-was/assets/tokens/Phantom%20Boar.webp",
+                "scale": 1.5
+            }
+        },
+        "dGKC9fWrGLTI7zP3": {
+            "actor": "modules/pf2e-ap196-the-summer-that-never-was/assets/art/Phantom%20Raven.webp",
+            "token": {
+                "img": "modules/pf2e-ap196-the-summer-that-never-was/assets/tokens/Phantom%20Raven.webp",
+                "scale": 1.5
+            }
+        },
+        "R805QpID53EycZ5E": {
+            "actor": "modules/pf2e-ap196-the-summer-that-never-was/assets/art/pzo90196%20phantomwolf.webp",
+            "token": {
+                "img": "modules/pf2e-ap196-the-summer-that-never-was/assets/tokens/PZO90196%20phantomWolf.webp",
+                "scale": 1.5
+            }
+        },
+        "2tgUyKdEjrK5hRye": {
+            "actor": "modules/pf2e-ap196-the-summer-that-never-was/assets/tokens/hazard.webp",
+            "token": {
+                "img": "modules/pf2e-ap196-the-summer-that-never-was/assets/tokens/hazard.webp",
+                "scale": 1.5
+            }
+        },
+        "OV671fn8SuClbJip": {
+            "actor": "modules/pf2e-ap196-the-summer-that-never-was/assets/art/Phantom%20Gecko.webp",
+            "token": {
+                "img": "modules/pf2e-ap196-the-summer-that-never-was/assets/tokens/Phantom%20Gecko.webp",
+                "scale": 1.5
+            }
+        },
+        "6SJPAIVZIiCjh4lZ": {
+            "actor": "modules/pf2e-ap196-the-summer-that-never-was/assets/tokens/hazard.webp",
+            "token": {
+                "img": "modules/pf2e-ap196-the-summer-that-never-was/assets/tokens/hazard.webp",
+                "scale": 1.5
+            }
+        },
+        "Cxe6UXbm4kHLNRyC": {
+            "actor": "modules/pf2e-ap196-the-summer-that-never-was/assets/art/Very%20Drunken%20Jinkin.webp",
+            "token": {
+                "img": "modules/pf2e-ap196-the-summer-that-never-was/assets/tokens/Very%20Drunken%20Jinkin.webp",
+                "scale": 1.5
+            }
+        },
+        "WHb1ycftTkk1QNoJ": {
+            "actor": "modules/pf2e-ap196-the-summer-that-never-was/assets/art/Animated%20Cookware%20Swarm.webp",
+            "token": {
+                "img": "modules/pf2e-ap196-the-summer-that-never-was/assets/tokens/Animated%20Cookware%20Swarm.webp",
+                "scale": 1.5
+            }
+        },
+        "5GZ9o5DlIQIZgLb8": {
+            "actor": "modules/pf2e-ap196-the-summer-that-never-was/assets/art/pzo90196%20shinigami.webp",
+            "token": {
+                "img": "modules/pf2e-ap196-the-summer-that-never-was/assets/tokens/PZO90196%20shinigami.webp",
+                "scale": 1.5
+            }
+        },
+        "7Fua7064VlF0Y14D": {
+            "actor": "modules/pf2e-ap196-the-summer-that-never-was/assets/art/pzo90196%20thatchling.webp",
+            "token": {
+                "img": "modules/pf2e-ap196-the-summer-that-never-was/assets/tokens/PZO90196%20thatchling.webp",
+                "scale": 1.2
+            }
+        },
+        "52dTAJPXCnE48a5a": {
+            "actor": "modules/pf2e-ap196-the-summer-that-never-was/assets/art/pzo90196%20noppera-bo%20grunt.webp",
+            "token": {
+                "img": "modules/pf2e-ap196-the-summer-that-never-was/assets/tokens/PZO90196%20noppera-bo%20grunt.webp",
+                "scale": 2
+            }
+        },
+        "APu2EqTJ4QdHkwtR": {
+            "actor": "modules/pf2e-ap196-the-summer-that-never-was/assets/art/pzo90196%20mugirou.webp",
+            "token": {
+                "img": "modules/pf2e-ap196-the-summer-that-never-was/assets/tokens/PZO90196%20mugirou.webp",
+                "scale": 1.5
+            }
+        },
+        "4iZxxQFySmU6EOfn": {
+            "actor": "modules/pf2e-ap196-the-summer-that-never-was/assets/art/pzo90196%20stone%20spider.webp",
+            "token": {
+                "img": "modules/pf2e-ap196-the-summer-that-never-was/assets/tokens/PZO90196%20stone%20spider.webp",
+                "scale": 1.5
+            }
+        },
+        "zhw2TOrXkWyvle5S": {
+            "actor": "modules/pf2e-ap196-the-summer-that-never-was/assets/art/pzo90196%20noppera-bo%20occultist.webp",
+            "token": {
+                "img": "modules/pf2e-ap196-the-summer-that-never-was/assets/tokens/PZO90196%20noppera-bo%20occultist.webp",
+                "scale": 1.5
+            }
+        },
+        "rYUegSA59suduHs4": {
+            "actor": "modules/pf2e-ap196-the-summer-that-never-was/assets/art/pzo90196%20zoudou.webp",
+            "token": {
+                "img": "modules/pf2e-ap196-the-summer-that-never-was/assets/tokens/PZO90196%20ZOUDOU.webp",
+                "scale": 2
+            }
+        },
+        "nkayyo1O9RFVBvCW": {
+            "actor": "modules/pf2e-ap196-the-summer-that-never-was/assets/art/pzo90196%20kugaptees%20blessing.webp",
+            "token": {
+                "img": "modules/pf2e-ap196-the-summer-that-never-was/assets/tokens/PZO90196%20Kugaptees%20blessing.webp",
+                "scale": 1.5
+            }
+        },
+        "N69YhHyRWfpfvESy": {
+            "actor": "modules/pf2e-ap196-the-summer-that-never-was/assets/art/pzo90196%20red%20hooded%20tatchling.webp",
+            "token": {
+                "img": "modules/pf2e-ap196-the-summer-that-never-was/assets/tokens/PZO90196%20red%20hooded%20tatchling.webp",
+                "scale": 1.2
+            }
+        },
+        "0QfL4oXQrDfhfZDs": {
+            "actor": "modules/pf2e-ap196-the-summer-that-never-was/assets/art/pzo90196%20granny%20hu.webp",
+            "token": {
+                "img": "modules/pf2e-ap196-the-summer-that-never-was/assets/tokens/PZO90196%20GrannyHu.webp",
+                "scale": 1.5
+            }
+        },
+        "KhGtAbhgupqJyqET": {
+            "actor": "modules/pf2e-ap196-the-summer-that-never-was/assets/art/pzo90196%20old%20matsuki.webp",
+            "token": {
+                "img": "modules/pf2e-ap196-the-summer-that-never-was/assets/tokens/PZO90196%20old%20matsuki.webp",
+                "scale": 1.5
+            }
+        },
+        "OqE7v9KwZNEO3zHp": {
+            "actor": "modules/pf2e-ap196-the-summer-that-never-was/assets/art/pzo90196%20hongrui%20fan.webp",
+            "token": {
+                "img": "modules/pf2e-ap196-the-summer-that-never-was/assets/tokens/PZO90196%20HONGRUI%20FAN.webp",
+                "scale": 1.5
+            }
+        },
+        "4fQfYZY6N9oUC9Ws": {
+            "actor": "modules/pf2e-ap196-the-summer-that-never-was/assets/art/Jinkin.webp",
+            "token": {
+                "img": "modules/pf2e-ap196-the-summer-that-never-was/assets/tokens/Jinkin.webp",
+                "scale": 1.5
+            }
+        }
+    },
+    "pathfinder-bestiary": {
+        "BKPRkJgq7ehsW7uX": {
+            "actor": "modules/pf2e-ap196-the-summer-that-never-was/assets/art/Giant%20Centipede.webp",
+            "token": {
+                "img": "modules/pf2e-ap196-the-summer-that-never-was/assets/tokens/Giant%20Centipede.webp",
+                "scale": 1.5
+            }
+        },
+        "gfRXFd24U633OC9r": {
+            "actor": "modules/pf2e-ap196-the-summer-that-never-was/assets/art/Jinkin.webp",
+            "token": {
+                "img": "modules/pf2e-ap196-the-summer-that-never-was/assets/tokens/Jinkin.webp",
+                "scale": 1.5
+            }
+        },
+        "oGIWTW0WqQxYNJOD": {
+            "actor": "modules/pf2e-ap196-the-summer-that-never-was/assets/art/Yix.webp",
+            "token": {
+                "img": "modules/pf2e-ap196-the-summer-that-never-was/assets/tokens/Yix.webp",
+                "scale": 1.5
+            }
+        },
+        "E4ctF7Fvi3cdkgQq": {
+            "actor": "modules/pf2e-ap196-the-summer-that-never-was/assets/art/Hunting%20Spider.webp",
+            "token": {
+                "img": "modules/pf2e-ap196-the-summer-that-never-was/assets/tokens/Hunting%20Spider.webp",
+                "scale": 1.5
+            }
+        },
+        "Oilfs8Atv2LjAsUS": {
+            "actor": "modules/pf2e-ap196-the-summer-that-never-was/assets/art/Wolf.webp",
+            "token": {
+                "img": "modules/pf2e-ap196-the-summer-that-never-was/assets/tokens/Wolf.webp",
+                "scale": 1.5
+            }
+        },
+        "bIw7czN0E3rENrVd": {
+            "actor": "modules/pf2e-ap196-the-summer-that-never-was/assets/art/Giant%20Stag%20Beetle.webp",
+            "token": {
+                "img": "modules/pf2e-ap196-the-summer-that-never-was/assets/tokens/Giant%20Stag%20Beetle.webp",
+                "scale": 1.5
+            }
+        },
+        "4MwjCsa5O9aAjxSm": {
+            "actor": "modules/pf2e-ap196-the-summer-that-never-was/assets/art/Boar.webp",
+            "token": {
+                "img": "modules/pf2e-ap196-the-summer-that-never-was/assets/tokens/Boar.webp",
+                "scale": 1.5
+            }
+        },
+        "Ey19J4nTn1dQvLtE": {
+            "actor": "modules/pf2e-ap196-the-summer-that-never-was/assets/art/Snapping%20Flytrap.webp",
+            "token": {
+                "img": "modules/pf2e-ap196-the-summer-that-never-was/assets/tokens/Snapping%20Flytrap.webp",
+                "scale": 1.5
+            }
+        },
+        "QRRX82FIjBKd8pzs": {
+            "actor": "modules/pf2e-ap196-the-summer-that-never-was/assets/art/Jerky.webp",
+            "token": {
+                "img": "modules/pf2e-ap196-the-summer-that-never-was/assets/tokens/Jerky.webp",
+                "scale": 1.5
+            }
+        },
+        "AYwdybUfm4meGUTJ": {
+            "actor": "modules/pf2e-ap196-the-summer-that-never-was/assets/art/Giant%20Rat.webp",
+            "token": {
+                "img": "modules/pf2e-ap196-the-summer-that-never-was/assets/tokens/Giant%20Rat.webp",
+                "scale": 1.5
+            }
+        },
+        "lFlXmieuHTBIonhj": {
+            "actor": "modules/pf2e-ap196-the-summer-that-never-was/assets/art/Viper.webp",
+            "token": {
+                "img": "modules/pf2e-ap196-the-summer-that-never-was/assets/tokens/Viper.webp",
+                "scale": 1.5
+            }
+        },
+        "KpxhSWRIhG7ns5NA": {
+            "actor": "modules/pf2e-ap196-the-summer-that-never-was/assets/art/Spider%20Swarm%201.webp",
+            "token": {
+                "img": "modules/pf2e-ap196-the-summer-that-never-was/assets/tokens/Spider%20Swarm%201.webp",
+                "scale": 1.5
+            }
+        }
+    },
+    "pathfinder-bestiary-2": {
+        "hFbfXmjMkGEzMkQ1": {
+            "actor": "modules/pf2e-ap196-the-summer-that-never-was/assets/art/Sparrow.webp",
+            "token": {
+                "img": "modules/pf2e-ap196-the-summer-that-never-was/assets/tokens/Sparrow.webp",
+                "scale": 1.5
+            }
+        },
+        "hNW3X8MbQQ9pUMiR": {
+            "actor": "modules/pf2e-ap196-the-summer-that-never-was/assets/art/pzo90196%20ootora.webp",
+            "token": {
+                "img": "modules/pf2e-ap196-the-summer-that-never-was/assets/tokens/PZO90196%20ootora.webp",
+                "scale": 1.5
+            }
+        },
+        "8HJNH3aDTJyJi3pU": {
+            "actor": "modules/pf2e-ap196-the-summer-that-never-was/assets/art/Cockroach%20Swarm.webp",
+            "token": {
+                "img": "modules/pf2e-ap196-the-summer-that-never-was/assets/tokens/Cockroach%20Swarm.webp",
+                "scale": 1.5
+            }
+        },
+        "Y1jsLqhsbqoXiGQe": {
+            "actor": "modules/pf2e-ap196-the-summer-that-never-was/assets/art/Warty%202.webp",
+            "token": {
+                "img": "modules/pf2e-ap196-the-summer-that-never-was/assets/tokens/Warty%202.webp",
+                "scale": 1.5
+            }
+        },
+        "e0YvEWJ5zpU946G4": {
+            "actor": "modules/pf2e-ap196-the-summer-that-never-was/assets/art/Stingy.webp",
+            "token": {
+                "img": "modules/pf2e-ap196-the-summer-that-never-was/assets/tokens/Stingy.webp",
+                "scale": 1.5
+            }
+        },
+        "xxP5FJotshmUQNtY": {
+            "actor": "modules/pf2e-ap196-the-summer-that-never-was/assets/art/Black%20Bear.webp",
+            "token": {
+                "img": "modules/pf2e-ap196-the-summer-that-never-was/assets/tokens/Black%20Bear.webp",
+                "scale": 1.5
+            }
+        },
+        "6tKVMKDdvbp0VhZD": {
+            "actor": "modules/pf2e-ap196-the-summer-that-never-was/assets/art/Slime%20Mold.webp",
+            "token": {
+                "img": "modules/pf2e-ap196-the-summer-that-never-was/assets/tokens/Slime%20Mold.webp",
+                "scale": 1.5
+            }
+        },
+        "RqABskvexmp5sT7X": {
+            "actor": "modules/pf2e-ap196-the-summer-that-never-was/assets/art/Giant%20Cockroach.webp",
+            "token": {
+                "img": "modules/pf2e-ap196-the-summer-that-never-was/assets/tokens/Giant%20Cockroach.webp",
+                "scale": 1.5
+            }
+        }
+    },
+    "pathfinder-bestiary-3": {
+        "aepfNXXy2juozgzB": {
+            "actor": "modules/pf2e-ap196-the-summer-that-never-was/assets/art/Noodles.webp",
+            "token": {
+                "img": "modules/pf2e-ap196-the-summer-that-never-was/assets/tokens/Noodles.webp",
+                "scale": 1.5
+            }
+        },
+        "QrD96KPUHGjjkLbL": {
+            "actor": "modules/pf2e-ap196-the-summer-that-never-was/assets/art/Kappa.webp",
+            "token": {
+                "img": "modules/pf2e-ap196-the-summer-that-never-was/assets/tokens/Kappa.webp",
+                "scale": 1.5
+            }
+        },
+        "KG1Zu3EK0wrNdsQC": {
+            "actor": "modules/pf2e-ap196-the-summer-that-never-was/assets/art/pzo90196%20chimisha.webp",
+            "token": {
+                "img": "modules/pf2e-ap196-the-summer-that-never-was/assets/tokens/PZO90196%20chimisha.webp",
+                "scale": 1.5
+            }
+        },
+        "kSk6QjH4wDGPPFrY": {
+            "actor": "modules/pf2e-ap196-the-summer-that-never-was/assets/art/pzo90196%20doiqiu.webp",
+            "token": {
+                "img": "modules/pf2e-ap196-the-summer-that-never-was/assets/tokens/PZO90196%20doiqiu.webp",
+                "scale": 1.5
+            }
+        },
+        "Fj3CXqR0Y6kgvcBE": {
+            "actor": "modules/pf2e-ap196-the-summer-that-never-was/assets/art/pzo90196%20great%20willow.webp",
+            "token": {
+                "img": "modules/pf2e-ap196-the-summer-that-never-was/assets/tokens/PZO90196%20great%20willow.webp",
+                "scale": 1.5
+            }
+        },
+        "Z5RBfl8x39uFpDUn": {
+            "actor": "modules/pf2e-ap196-the-summer-that-never-was/assets/art/pzo90196%20xungu.webp",
+            "token": {
+                "img": "modules/pf2e-ap196-the-summer-that-never-was/assets/tokens/PZO90196%20xungu.webp",
+                "scale": 1.5
+            }
+        },
+        "BrGvmcM6jl3xUs4d": {
+            "actor": "modules/pf2e-ap196-the-summer-that-never-was/assets/art/Cobbleswarm.webp",
+            "token": {
+                "img": "modules/pf2e-ap196-the-summer-that-never-was/assets/tokens/Cobbleswarm.webp",
+                "scale": 1.5
+            }
+        },
+        "0HTju4vf8ADAAh2g": {
+            "actor": "modules/pf2e-ap196-the-summer-that-never-was/assets/art/Air%20Wisp.webp",
+            "token": {
+                "img": "modules/pf2e-ap196-the-summer-that-never-was/assets/tokens/Air%20Wisp.webp",
+                "scale": 1.5
+            }
+        }
+    },
+    "hazards": {
+        "nO4osrBRnpWKFCMP": {
+            "actor": "modules/pf2e-ap196-the-summer-that-never-was/assets/tokens/hazard.webp",
+            "token": {
+                "img": "modules/pf2e-ap196-the-summer-that-never-was/assets/tokens/hazard.webp",
+                "scale": 1.5
+            }
+        }
+    },
+    "npc-gallery": {
+        "xY2WjwebqTNXAP0q": {
+            "actor": "modules/pf2e-ap196-the-summer-that-never-was/assets/art/Reveler%201.webp",
+            "token": {
+                "img": "modules/pf2e-ap196-the-summer-that-never-was/assets/tokens/Reveler%201.webp",
+                "scale": 1.5
+            }
+        },
+        "rsATu823vatRe7QJ": {
+            "actor": "modules/pf2e-ap196-the-summer-that-never-was/assets/art/Town%20Guard.webp",
+            "token": {
+                "img": "modules/pf2e-ap196-the-summer-that-never-was/assets/tokens/Town%20Guard.webp",
+                "scale": 1.5
+            }
+        },
+        "PLOfWPKwB7pE4arv": {
+            "actor": "modules/pf2e-ap196-the-summer-that-never-was/assets/art/pzo90196%20de-ge.webp",
+            "token": {
+                "img": "modules/pf2e-ap196-the-summer-that-never-was/assets/tokens/PZO90196%20De-Ge.webp",
+                "scale": 1.5
+            }
+        }
+    },
+    "book-of-the-dead-bestiary": {
+        "VNego1px6HN8mtUl": {
+            "actor": "modules/pf2e-ap196-the-summer-that-never-was/assets/tokens/hazard.webp",
+            "token": {
+                "img": "modules/pf2e-ap196-the-summer-that-never-was/assets/tokens/hazard.webp",
+                "scale": 1.5
+            }
+        },
+        "ayCK1wCQY7mCCyxh": {
+            "actor": "modules/pf2e-ap196-the-summer-that-never-was/assets/tokens/hazard.webp",
+            "token": {
+                "img": "modules/pf2e-ap196-the-summer-that-never-was/assets/tokens/hazard.webp",
+                "scale": 1.5
+            }
+        },
+        "Ez8wXPDKOzxvxnqS": {
+            "actor": "modules/pf2e-ap196-the-summer-that-never-was/assets/tokens/hazard.webp",
+            "token": {
+                "img": "modules/pf2e-ap196-the-summer-that-never-was/assets/tokens/hazard.webp",
+                "scale": 1.5
+            }
+        },
+        "I2XdTFyxnnRdmWsi": {
+            "actor": "modules/pf2e-ap196-the-summer-that-never-was/assets/tokens/hazard.webp",
+            "token": {
+                "img": "modules/pf2e-ap196-the-summer-that-never-was/assets/tokens/hazard.webp",
+                "scale": 1.5
+            }
+        },
+        "VQqdG5PKdCFHXquy": {
+            "actor": "modules/pf2e-ap196-the-summer-that-never-was/assets/tokens/hazard.webp",
+            "token": {
+                "img": "modules/pf2e-ap196-the-summer-that-never-was/assets/tokens/hazard.webp",
+                "scale": 1.5
+            }
+        },
+        "uE6YuCCqU715E1Ay": {
+            "actor": "modules/pf2e-ap196-the-summer-that-never-was/assets/tokens/hazard.webp",
+            "token": {
+                "img": "modules/pf2e-ap196-the-summer-that-never-was/assets/tokens/hazard.webp",
+                "scale": 1.5
+            }
+        }
+    }
+}
