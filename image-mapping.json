@@ -141,7 +141,7 @@
             }
         },
         "4fQfYZY6N9oUC9Ws": {
-            "actor": "modules/pf2e-ts-adv-seasonofghosts/196/assets/art/Jinkin.webp",
+            "actor": "modules/pf2e-ts-adv/art_token/portraits/fey/gremlin/jinkin.webp",
             "token": {
                 "img": "modules/pf2e-ts-adv-seasonofghosts/196/assets/tokens/Jinkin.webp",
                 "scale": 1.5
@@ -157,7 +157,7 @@
             }
         },
         "gfRXFd24U633OC9r": {
-            "actor": "modules/pf2e-ts-adv-seasonofghosts/196/assets/art/Jinkin.webp",
+            "actor": "modules/pf2e-ts-adv/art_token/portraits/fey/gremlin/jinkin.webp",
             "token": {
                 "img": "modules/pf2e-ts-adv-seasonofghosts/196/assets/tokens/Jinkin.webp",
                 "scale": 1.5
@@ -285,7 +285,7 @@
             }
         },
         "RqABskvexmp5sT7X": {
-            "actor": "modules/pf2e-ts-adv-seasonofghosts/196/assets/art/Giant%20Cockroach.webp",
+            "actor": "modules/pf2e-ts-adv/art_token/portraits/bestial/invertebrate/cockroach-giant.webp",
             "token": {
                 "img": "modules/pf2e-ts-adv-seasonofghosts/196/assets/tokens/Giant%20Cockroach.webp",
                 "scale": 1.5
