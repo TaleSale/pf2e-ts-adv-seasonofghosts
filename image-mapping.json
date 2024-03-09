@@ -279,6 +279,181 @@
                 "img": "modules/pf2e-ts-adv-seasonofghosts/197/assets/tokens/hazard.webp",
                 "scale": 1.5
             }
+        },
+        "9ykOAabxlhcD0dM9": {
+            "actor": "modules/pf2e-ts-adv-seasonofghosts/198/assets/art/PZO90198%20EDITED%20Ghostly%20Exorcist.webp",
+            "token": {
+                "img": "modules/pf2e-ts-adv-seasonofghosts/198/assets/tokens/PZO90198%20EDITED%20Ghostly%20Exorcist.webp",
+                "scale": 2
+            }
+        },
+        "HSozUsLp1ufDkJIr": {
+            "actor": "modules/pf2e-ts-adv-seasonofghosts/198/assets/art/Willowshore%20Waldgeist.webp",
+            "token": {
+                "img": "modules/pf2e-ts-adv-seasonofghosts/198/assets/tokens/Willowshore%20Waldgeist.webp",
+                "scale": 1.5
+            }
+        },
+        "IdbrdikgvRguKYNE": {
+            "actor": "modules/pf2e-ts-adv-seasonofghosts/198/assets/art/Familiar%20Shadow.webp",
+            "token": {
+                "img": "modules/pf2e-ts-adv-seasonofghosts/198/assets/tokens/Familiar%20Shadow.webp",
+                "scale": 1.5
+            }
+        },
+        "dqsQutshiegWaFPQ": {
+            "actor": "modules/pf2e-ts-adv-seasonofghosts/198/assets/art/PZO90198%20NOPPERA-BO%20ORACLE%20impersonator.webp",
+            "token": {
+                "img": "modules/pf2e-ts-adv-seasonofghosts/198/assets/tokens/PZO90198%20NOPPERA-BO%20ORACLE%20impersonator.webp",
+                "scale": 1.5
+            }
+        },
+        "QSa1PbcvbgDv8Zpr": {
+            "actor": "modules/pf2e-ts-adv-seasonofghosts/198/assets/art/PZO90198%20NOPPERA-BO%20ORACLE%20impersonator.webp",
+            "token": {
+                "img": "modules/pf2e-ts-adv-seasonofghosts/198/assets/tokens/PZO90198%20NOPPERA-BO%20ORACLE%20impersonator.webp",
+                "scale": 1.5
+            }
+        },
+        "Mt053Q3jCVLXp6us": {
+            "actor": "modules/pf2e-ts-adv-seasonofghosts/198/assets/art/PZO90198%20NOPPERA-BO%20ORACLE%20impersonator.webp",
+            "token": {
+                "img": "modules/pf2e-ts-adv-seasonofghosts/198/assets/tokens/PZO90198%20NOPPERA-BO%20ORACLE%20impersonator.webp",
+                "scale": 1.5
+            }
+        },
+        "AsfjgDmWkUxPI6m8": {
+            "actor": "modules/pf2e-ts-adv-seasonofghosts/198/assets/art/PZO90198%20NOPPERA-BO%20ORACLE%20impersonator.webp",
+            "token": {
+                "img": "modules/pf2e-ts-adv-seasonofghosts/198/assets/tokens/PZO90198%20NOPPERA-BO%20ORACLE%20impersonator.webp",
+                "scale": 1.5
+            }
+        },
+        "6UkZJRICusE2EOhS": {
+            "actor": "modules/pf2e-ts-adv-seasonofghosts/198/assets/art/PZO90198%20NOPPERA-BO%20ORACLE%20impersonator.webp",
+            "token": {
+                "img": "modules/pf2e-ts-adv-seasonofghosts/198/assets/tokens/PZO90198%20NOPPERA-BO%20ORACLE%20impersonator.webp",
+                "scale": 1.5
+            }
+        },
+        "3KNblm2fWM6XLiS7": {
+            "actor": "modules/pf2e-ts-adv-seasonofghosts/198/assets/art/PZO90198%20NOPPERA-BO%20ORACLE%20impersonator.webp",
+            "token": {
+                "img": "modules/pf2e-ts-adv-seasonofghosts/198/assets/tokens/PZO90198%20NOPPERA-BO%20ORACLE%20impersonator.webp",
+                "scale": 1.5
+            }
+        },
+        "O1KxqCWfO3HUrgHV": {
+            "actor": "modules/pf2e-ts-adv-seasonofghosts/198/assets/tokens/hazard.webp",
+            "token": {
+                "img": "modules/pf2e-ts-adv-seasonofghosts/198/assets/tokens/hazard.webp",
+                "scale": 1.2
+            }
+        },
+        "bIoWSQbvs2yeL7PG": {
+            "actor": "modules/pf2e-ts-adv-seasonofghosts/198/assets/art/PZO90198%20SHAN-BAO%20HEH.webp",
+            "token": {
+                "img": "modules/pf2e-ts-adv-seasonofghosts/198/assets/tokens/PZO90198%20Shan-BaoHeh.webp",
+                "scale": 1.5
+            }
+        },
+        "xxx8mtBmNnwrGUGO": {
+            "actor": "modules/pf2e-ts-adv-seasonofghosts/198/assets/art/PZO90198%20rin.webp",
+            "token": {
+                "img": "modules/pf2e-ts-adv-seasonofghosts/198/assets/tokens/PZO90198%20rin.webp",
+                "scale": 2
+            }
+        },
+        "Qmg2GRJivmrKxJ4C": {
+            "actor": "modules/pf2e-ts-adv-seasonofghosts/198/assets/art/PZO90198%20SILSYCHE.webp",
+            "token": {
+                "img": "modules/pf2e-ts-adv-seasonofghosts/198/assets/tokens/PZO90198%20SILSYCHE.webp",
+                "scale": 1.5
+            }
+        },
+        "183L006AcuLnHJbY": {
+            "actor": "modules/pf2e-ts-adv-seasonofghosts/198/assets/art/PZO90198%20KAGEKUMA%20NINDORU.webp",
+            "token": {
+                "img": "modules/pf2e-ts-adv-seasonofghosts/198/assets/tokens/PZO90198%20KAGEKUMA%20NINDORU.webp",
+                "scale": 1.5
+            }
+        },
+        "z1FBK5Mi6nWxvkn2": {
+            "actor": "modules/pf2e-ts-adv-seasonofghosts/198/assets/art/PZO90198%20Exorcist.webp",
+            "token": {
+                "img": "modules/pf2e-ts-adv-seasonofghosts/198/assets/tokens/PZO90198%20Exorcist.webp",
+                "scale": 2
+            }
+        },
+        "oai45noF4GX3LZvX": {
+            "actor": "modules/pf2e-ts-adv-seasonofghosts/198/assets/art/PZO90198%20SHRINE%20MAIDEN.webp",
+            "token": {
+                "img": "modules/pf2e-ts-adv-seasonofghosts/198/assets/tokens/PZO90198%20SHRINE%20MAIDEN.webp",
+                "scale": 3
+            }
+        },
+        "OoTnmIkunSTCPet3": {
+            "actor": "modules/pf2e-ts-adv-seasonofghosts/198/assets/art/PZO90198%20SHIMMERTHIEF.webp",
+            "token": {
+                "img": "modules/pf2e-ts-adv-seasonofghosts/198/assets/tokens/PZO90198%20SHIMMERTHIEF.webp",
+                "scale": 1.5
+            }
+        },
+        "k9JJEqd1G2EB27Gd": {
+            "actor": "modules/pf2e-ts-adv-seasonofghosts/198/assets/tokens/hazard.webp",
+            "token": {
+                "img": "modules/pf2e-ts-adv-seasonofghosts/198/assets/tokens/hazard.webp",
+                "scale": 1.2
+            }
+        },
+        "U0yn2XcgMw4bPU5B": {
+            "actor": "modules/pf2e-ts-adv-seasonofghosts/198/assets/art/PZO90198%20WardingBell.webp",
+            "token": {
+                "img": "modules/pf2e-ts-adv-seasonofghosts/198/assets/tokens/hazard.webp",
+                "scale": 1.2
+            }
+        },
+        "ozi0MnBHVjQQbfNJ": {
+            "actor": "modules/pf2e-ts-adv-seasonofghosts/198/assets/art/PZO90198%20AKASHTI%20NINDORU.webp",
+            "token": {
+                "img": "modules/pf2e-ts-adv-seasonofghosts/198/assets/tokens/PZO90198%20AKASHTI%20NINDORU.webp",
+                "scale": 2
+            }
+        },
+        "V67VC975O8iC1Yq2": {
+            "actor": "modules/pf2e-ts-adv-seasonofghosts/198/assets/art/Animated%20Axe.webp",
+            "token": {
+                "img": "modules/pf2e-ts-adv-seasonofghosts/198/assets/tokens/Animated%20Axe.webp",
+                "scale": 1.5
+            }
+        },
+        "skJTZHJZgIAZ9oGN": {
+            "actor": "modules/pf2e-ts-adv-seasonofghosts/198/assets/art/PZO90198%20KAI%20MAGO.webp",
+            "token": {
+                "img": "modules/pf2e-ts-adv-seasonofghosts/198/assets/tokens/PZO90198%20KaiMagoPortrait.webp",
+                "scale": 1.5
+            }
+        },
+        "eHYImrxvToKy4IFQ": {
+            "actor": "modules/pf2e-ts-adv-seasonofghosts/198/assets/tokens/hazard.webp",
+            "token": {
+                "img": "modules/pf2e-ts-adv-seasonofghosts/198/assets/tokens/hazard.webp",
+                "scale": 1.2
+            }
+        },
+        "nclfSsutwosyGxUX": {
+            "actor": "modules/pf2e-ts-adv-seasonofghosts/198/assets/tokens/hazard.webp",
+            "token": {
+                "img": "modules/pf2e-ts-adv-seasonofghosts/198/assets/tokens/hazard.webp",
+                "scale": 1.2
+            }
+        },
+        "7lNpmwXNZgHcYn9I": {
+            "actor": "modules/pf2e-ts-adv-seasonofghosts/198/assets/tokens/hazard.webp",
+            "token": {
+                "img": "modules/pf2e-ts-adv-seasonofghosts/198/assets/tokens/hazard.webp",
+                "scale": 1.2
+            }
         }
     },
     "pathfinder-bestiary": {
@@ -400,6 +575,27 @@
                 "img": "modules/pf2e-ts-adv-seasonofghosts/197/assets/tokens/Hell%20Hound.webp",
                 "scale": 1.5
             }
+        },
+        "oBMIc2S8ekmDgPpi": {
+            "actor": "modules/pf2e-ts-adv-seasonofghosts/198/assets/art/Awakened%20Tree.webp",
+            "token": {
+                "img": "modules/pf2e-ts-adv-seasonofghosts/198/assets/tokens/Awakened%20Tree.webp",
+                "scale": 2
+            }
+        },
+        "2H2AEwQnfKJC0nrd": {
+            "actor": "modules/pf2e-ts-adv-seasonofghosts/198/assets/art/Forgotten%20Spirit.webp",
+            "token": {
+                "img": "modules/pf2e-ts-adv-seasonofghosts/198/assets/tokens/Forgotten%20Spirit.webp",
+                "scale": 1.5
+            }
+        },
+        "Jy2va0NTTbaUH1zP": {
+            "actor": "modules/pf2e-ts-adv-seasonofghosts/198/assets/art/War%20Horse.webp",
+            "token": {
+                "img": "modules/pf2e-ts-adv-seasonofghosts/198/assets/tokens/War%20Horse.webp",
+                "scale": 1.5
+            }
         }
     },
     "pathfinder-bestiary-2": {
@@ -486,6 +682,27 @@
                 "img": "modules/pf2e-ts-adv-seasonofghosts/197/assets/tokens/Ogre%20Spider.webp",
                 "scale": 1.5
             }
+        },
+        "n1jTYFRCaqF1nQrf": {
+            "actor": "modules/pf2e-ts-adv-seasonofghosts/198/assets/art/Titan%20Centipede.webp",
+            "token": {
+                "img": "modules/pf2e-ts-adv-seasonofghosts/198/assets/tokens/Titan%20Centipede.webp",
+                "scale": 1.5
+            }
+        },
+        "3YcsuATyahEMygNy": {
+            "actor": "modules/pf2e-ts-adv-seasonofghosts/198/assets/art/Revenant.webp",
+            "token": {
+                "img": "modules/pf2e-ts-adv-seasonofghosts/198/assets/tokens/Revenant.webp",
+                "scale": 1.5
+            }
+        },
+        "uiTUtcXixZ6TdKYE": {
+            "actor": "modules/pf2e-ts-adv-seasonofghosts/198/assets/art/Vanth.webp",
+            "token": {
+                "img": "modules/pf2e-ts-adv-seasonofghosts/198/assets/tokens/Vanth.webp",
+                "scale": 3
+            }
         }
     },
     "pathfinder-bestiary-3": {
@@ -565,6 +782,13 @@
                 "img": "modules/pf2e-ts-adv-seasonofghosts/197/assets/tokens/Kurobozu.webp",
                 "scale": 1.5
             }
+        },
+        "dniiLeUhXaq5CElX": {
+            "actor": "modules/pf2e-ts-adv-seasonofghosts/198/assets/art/Arboreal%20Reaper.webp",
+            "token": {
+                "img": "modules/pf2e-ts-adv-seasonofghosts/198/assets/tokens/Arboreal%20Reaper.webp",
+                "scale": 1.5
+            }
         }
     },
     "hazards": {
@@ -595,6 +819,20 @@
             "actor": "modules/pf2e-ts-adv-seasonofghosts/196/assets/art/pzo90196%20de-ge.webp",
             "token": {
                 "img": "modules/pf2e-ts-adv-seasonofghosts/196/assets/tokens/PZO90196%20De-Ge.webp",
+                "scale": 1.5
+            }
+        },
+        "GRtEwNQgKQ9j9JPK": {
+            "actor": "modules/pf2e-ts-adv-seasonofghosts/198/assets/art/Mercenary%20Enforcer.webp",
+            "token": {
+                "img": "modules/pf2e-ts-adv-seasonofghosts/198/assets/tokens/Mercenary%20Enforcer.webp",
+                "scale": 1.5
+            }
+        },
+        "1iz7O6DLDJqStojd": {
+            "actor": "modules/pf2e-ts-adv-seasonofghosts/198/assets/art/Servant%20(Human).webp",
+            "token": {
+                "img": "modules/pf2e-ts-adv-seasonofghosts/198/assets/tokens/Servant%20(Human).webp",
                 "scale": 1.5
             }
         }
