@@ -1,108 +1,166 @@
-var q = Object.defineProperty;
-var d = (n, e) => q(n, "name", { value: e, configurable: !0 });
-var B = (n, e, a) => {
-  if (!e.has(n))
-    throw TypeError("Cannot " + a);
+var F = Object.defineProperty;
+var u = (o, a) => F(o, "name", { value: a, configurable: !0 });
+var G = (o, a, t) => {
+  if (!a.has(o))
+    throw TypeError("Cannot " + t);
 };
-var g = (n, e, a) => {
-  if (e.has(n))
+var y = (o, a, t) => {
+  if (a.has(o))
     throw TypeError("Cannot add the same private member more than once");
-  e instanceof WeakSet ? e.add(n) : e.set(n, a);
+  a instanceof WeakSet ? a.add(o) : a.set(o, t);
 };
-var f = (n, e, a) => (B(n, e, "access private method"), a);
-const b = { id: "pf2e-ap196-199-season-of-ghosts", title: "Season of Ghosts - Basis Pack", description: "Contains the Player's guide and common dependencies for the Season of Ghosts Adventure Path modules.", manifest: "https://downloads.paizo.com/foundry-public/modules/pf2e-ts-adv-seasonofghosts/module.json", download: "https://downloads.paizo.com/foundry-public/modules/pf2e-ts-adv-seasonofghosts/module-v11.zip", url: "https://paizo.com/store/pathfinder/adventures/adventurePath/seasonOfGhosts", version: "1.1.0", media: [{ type: "cover", url: "https://cdn.paizo.com/e7fd0eeb-9d7d-006b-7558-1a3e2f7bd8df/68e18c2e-7fd5-4f8f-bbc3-bcb96ec1e554/PZO90196-90169_KeyArt.webp", loop: !1, flags: {} }, { type: "icon", url: "https://cdn.paizo.com/image/navigation/Nav-Logo-Global.png", loop: !1, flags: {} }], packs: [{ name: "adventures", label: "Season of Ghosts - Player's Guide", path: "packs/adventures", system: "pf2e", ownership: { PLAYER: "LIMITED", ASSISTANT: "OWNER" }, type: "Adventure", flags: {} }], scripts: [], esmodules: ["./index.js"], styles: ["./style.css"], authors: [{ name: "Paizo", url: "https://paizo.com/", flags: {} }], compatibility: { minimum: "11.306", verified: "11" }, relationships: { recommends: [{ id: "quick-insert", type: "module", manifest: "https://gitlab.com/fvtt-modules-lab/quick-insert/-/jobs/artifacts/master/raw/module.json?job=build-module", flags: { sigil: { devOnly: !0 } } }], systems: [{ id: "pf2e", manifest: "https://github.com/foundryvtt/pf2e/releases/latest/download/system.json", flags: { sigil: { localDevVersion: { distPath: "dist" } } }, type: "system", compatibility: { minimum: "5.7.2", verified: "5.7.2" } }] }, flags: { "pf2e-ap196-199-season-of-ghosts": { adventureImporter: { "Compendium.pf2e-ap196-199-season-of-ghosts.adventures.Adventure.pf2soghoadv00001": { initialJournalEntryId: "pf2sogho01player", initialJournalPageId: "01playersguide00" } } }, sigil: { sheetClass: "SeasonOfGhostsJournalSheet", parent: "pf2e-ap196-199-season-of-ghosts", cssClass: "seasonofghosts", productTitle: "Season of Ghosts", productSlug: "SeasonOfGhosts", featureConfigurations: { "distraction-free-mode": !1, "safe-journal-mode": !0, "global-macro-helpers": !0, adventures: !0 }, adventureExports: [{ _id: "pf2soghoadv00001", name: "Season of Ghosts - Player's Guide", img: "modules/pf2e-ts-adv-seasonofghosts/assets/art/PZO90196 Cover Scene.webp", caption: "", description: "Contains the Player's guide and common dependencies for the Season of Ghosts Adventure Path modules.", sort: 0, _include: { folders: ["pf2sogho01season"] }, _exclude: {}, flags: { core: { sheetClass: "pf2e-ap196-199-season-of-ghosts.SigilPF2EAdventureImporter" } } }] } }, packFolders: [{ name: "Season of Ghosts", sorting: "m", color: "#011e4b", packs: ["adventures"], folders: [] }], protected: !1 }, c = b.id, V = b.version, k = b.flags?.sigil?.productTitle, R = b.flags?.sigil?.productSlug, h = b.flags?.sigil?.cssClass, _ = b.flags?.sigil?.featureConfigurations, D = b.flags?.sigil?.sheetClass, Y = { packageId: "pf2e-ap196-199-season-of-ghosts", productSlug: "SeasonOfGhosts" };
+var g = (o, a, t) => (G(o, a, "access private method"), t);
+const h = { id: "pf2e-ap196-199-season-of-ghosts", title: "Season of Ghosts - Basis Pack", description: "Contains the Player's guide and common dependencies for the Season of Ghosts Adventure Path modules.", manifest: "https://downloads.paizo.com/foundry-public/modules/pf2e-ap196-199-season-of-ghosts/module.json", download: "https://downloads.paizo.com/foundry-public/modules/pf2e-ap196-199-season-of-ghosts/module-v11.zip", url: "https://paizo.com/store/pathfinder/adventures/adventurePath/seasonOfGhosts", version: "1.2.3", media: [{ type: "cover", url: "https://cdn.paizo.com/e7fd0eeb-9d7d-006b-7558-1a3e2f7bd8df/68e18c2e-7fd5-4f8f-bbc3-bcb96ec1e554/PZO90196-90169_KeyArt.webp", loop: !1, flags: {} }, { type: "icon", url: "https://cdn.paizo.com/image/navigation/Nav-Logo-Global.png", loop: !1, flags: {} }], packs: [{ name: "adventures", label: "Season of Ghosts - Player's Guide", path: "packs/adventures", system: "pf2e", ownership: { PLAYER: "LIMITED", ASSISTANT: "OWNER" }, type: "Adventure", flags: {} }], scripts: [], esmodules: ["./index.js"], styles: ["./style.css"], authors: [{ name: "Paizo", url: "https://paizo.com/", flags: {} }], compatibility: { minimum: "11.306", verified: "11" }, relationships: { recommends: [{ id: "quick-insert", type: "module", manifest: "https://gitlab.com/fvtt-modules-lab/quick-insert/-/jobs/artifacts/master/raw/module.json?job=build-module", flags: { sigil: { devOnly: !0 } } }], systems: [{ id: "pf2e", manifest: "https://github.com/foundryvtt/pf2e/releases/latest/download/system.json", flags: { sigil: { localDevVersion: { distPath: "dist" } } }, type: "system", compatibility: { minimum: "5.7.2", verified: "5.7.2" } }] }, flags: { "pf2e-ap196-199-season-of-ghosts": { adventureImporter: { "Compendium.pf2e-ap196-199-season-of-ghosts.adventures.Adventure.pf2soghoadv00001": { initialJournalEntryId: "pf2sogho01player", initialJournalPageId: "01playersguide00", partyToken: "modules/pf2e-ap196-199-season-of-ghosts/assets/token/SoG_Party_Token.webp" } } }, sigil: { sheetClass: "SeasonOfGhostsJournalSheet", parent: "pf2e-ap196-199-season-of-ghosts", cssClass: "seasonofghosts", productTitle: "Season of Ghosts", productSlug: "SeasonOfGhosts", featureConfigurations: { "distraction-free-mode": !1, "safe-journal-mode": !0, "global-macro-helpers": !0, adventures: !0 }, adventureExports: [{ _id: "pf2soghoadv00001", name: "Season of Ghosts - Player's Guide", img: "modules/pf2e-ap196-199-season-of-ghosts/assets/art/PZO90196 Cover Scene.webp", caption: "", description: "Contains the Player's guide and common dependencies for the Season of Ghosts Adventure Path modules.", sort: 0, _include: { folders: ["pf2sogho01season", "4wyvYkzIawmxHkie"] }, _exclude: {}, flags: { core: { sheetClass: "pf2e-ap196-199-season-of-ghosts.SigilPF2EAdventureImporter" } } }] } }, packFolders: [{ name: "Season of Ghosts", sorting: "m", color: "#011e4b", packs: ["adventures"], folders: [] }], protected: !1 }, d = h.id, U = h.version, v = h.flags?.sigil?.productTitle, L = h.flags?.sigil?.productSlug, m = h.flags?.sigil?.cssClass, I = h.flags?.sigil?.featureConfigurations, _ = h.flags?.sigil?.sheetClass, q = { packageId: "pf2e-ap196-199-season-of-ghosts", productSlug: "SeasonOfGhosts" };
 Hooks.once("init", () => {
-  const n = [["@sigil.pf2e-ap196-199-season-of-ghosts.dialog-show", '<form class="journal-show-dialog"> <div class="form-group-stacked"> <div class="checkbox-label"> <span>{{localize "JOURNAL.ShowTo"}}</span> <label class="checkbox"> {{localize "OWNERSHIP.AllPlayers"}} <input type="checkbox" name="allPlayers" checked> </label> </div> <div class="form-fields"> {{#each users}} <label class="checkbox"> {{name}} <input type="checkbox" name="players" value="{{id}}" checked disabled> </label> {{/each}} </div> </div> </form> '], ["@sigil.pf2e-ap196-199-season-of-ghosts.importer", "<form class='flexrow' autocomplete='off' data-pack='{{adventure.pack}}' data-adventure-id='{{adventure.id}}' > <header class='adventure-head'> <img class='chapter-image' src='{{adventure.img}}' title='{{adventure.name}}' /> <h1 class='chapter-heading'>{{adventure.name}}</h1> </header> <section class='adventure-overview'> <h2>{{localize 'ADVENTURE.ImportHeaderOverview'}}</h2> {{{adventure.description}}} <div class='form-group'> <label class='checkbox'> <input type='checkbox' name='dontShowAgain' {{checked this.dontShowAgain}} /> Don't show this dialog again </label> </div> </section> <section class='import-controls'> <h2>{{localize 'ADVENTURE.ImportHeaderContents'}}</h2> <div class='form-group'> <label class='checkbox'> <input type='checkbox' name='importFields' value='all' title='Import All' checked /> Import All </label> </div> {{#each contents}} <div class='form-group'> <label class='checkbox'> <input type='checkbox' name='importFields' value='{{this.field}}' title='Import {{this.label}}' checked disabled /> <i class='{{this.icon}}'></i> {{this.count}} {{this.label}} </label> </div> {{/each}} </section> {{#if hasImportOptions}} <section class='import-options'> <h2>Import Options</h2> {{#each importOptions as |option name|}} <div class='form-group'> <label class='checkbox'> <input type='checkbox' name='{{name}}' title='{{option.label}}' {{checked option.default}} /> {{option.label}} </label> </div> {{/each}} </section> {{/if}} <footer class='adventure-footer'> <button type='submit'> <i class='fas fa-download'></i> {{localize 'ADVENTURE.ImportSubmit'}} </button> </footer> </form>"], ["@sigil.pf2e-ap196-199-season-of-ghosts.journal", `<div class="journal-sheet-container"> <div class="decoration corner-ul"></div> <div class="decoration corner-ur"></div> <div class="decoration corner-bl"></div> <div class="decoration corner-br"></div> <div class="decoration leaves"></div> <div class="decoration branches"></div> {{! Sidebar Container }} <aside class="sidebar directory flexcol journal-sidebar {{sidebarClass}}"> {{! Sidebar Search }} <header class="directory-header"> <div class="header-search flexrow"> <a class="action-button view-mode" data-action="toggleView" data-tooltip="{{localize viewMode.label}}"><i class="{{viewMode.icon}}"></i></a> <input type="search" name="search" value="" autocomplete="off" placeholder="{{localize "SIDEBAR.Search" types=(localize "DOCUMENT.JournalEntryPages")}}"> <a class="action-button collapse-toggle" data-action="toggleCollapse" data-tooltip="{{localize collapseMode.label}}"><i class="{{collapseMode.icon}}"></i></a> </div> </header> {{! Sidebar Pages Navigation }} <nav class="pages-list" aria-label="{{localize 'JOURNAL.NavLabel'}}" data-tooltip-direction="RIGHT"> <ol class="directory-list scrollable"> {{#each toc as |page|}} <li class="directory-item {{page.cssClass}}" data-page-id="{{page._id}}"> <div class="page-heading"> <span class="page-number{{#if page.pageNumberClass}} {{page.pageNumberClass}}{{/if}}" data-tooltip="{{page.name}}">{{page.number}}.</span> <span class="page-title">{{page.name}}</span> {{#if page.icon}} <span class="page-ownership {{page.ownershipCls}}"><i class="{{page.icon}}"></i></span> {{/if}} </div> </li> {{/each}} </ol> </nav> {{! Sidebar Control Buttons }} <div class="action-buttons flexrow"> <button class="previous" type="button" data-action="previous" data-tooltip="{{localize 'JOURNAL.PrevPage'}}"> <i class="fa-solid fa-chevron-left"></i> </button> {{#if editable}} <button class="create" type="button" data-action="createPage"> <i class="fa-solid fa-file-circle-plus"></i> {{localize "JOURNAL.AddPage"}} </button> {{/if}} <button class="next" type="button" data-action="next" data-tooltip="{{localize 'JOURNAL.NextPage'}}"> <i class="fa-solid fa-chevron-right"></i> </button> </div> </aside> {{! Main Content }} <section class="journal-entry-content flexcol"> <form class="journal-header"> <input class="title" name="name" type="text" value="{{document.name}}" placeholder="{{localize "JOURNAL.EntryTitle"}}"/> </form> <div class="journal-entry-pages {{cssClass}} {{viewMode.cls}}"> <div class="scrollable"> {{#each pages as |page|}} <article class="journal-entry-page {{page.type}}{{#if (eq page.type "text")}} {{cssClass}}{{/if}}" data-page-id="{{page._id}}"> {{#if page.editable}} <div class="edit-container"> <a class="editor-edit"><i class="fas fa-edit"></i></a> </div> {{/if}} </article> {{/each}} </div> </div> </section> </div> `], ["@sigil.pf2e-ap196-199-season-of-ghosts.page-edit", '<form class="{{cssClass}} flexcol" autocomplete="off"> {{> journalEntryPageHeader}} {{editor editor.content target="text.content" class="journal-page-content" button=false editable=true engine=editor.engine collaborate=editor.collaborate}} </form> '], ["@sigil.pf2e-ap196-199-season-of-ghosts.page-view", '{{#if data.title.show}} <header class="journal-page-header"> <h{{data.title.level}}{{#if data.subtitle}} class="split"{{/if}}> <span>{{data.name}}</span> {{#if data.subtitle}} <span class="subtitle">{{data.subtitle}}</span> {{/if}} </h{{data.title.level}}> </header> {{/if}} <section class="journal-page-content"> {{{editor.content}}} </section> ']];
+  const o = [["@sigil.pf2e-ap196-199-season-of-ghosts.dialog-show", '<form class="journal-show-dialog"> <div class="form-group-stacked"> <div class="checkbox-label"> <span>{{localize "JOURNAL.ShowTo"}}</span> <label class="checkbox"> {{localize "OWNERSHIP.AllPlayers"}} <input type="checkbox" name="allPlayers" checked> </label> </div> <div class="form-fields"> {{#each users}} <label class="checkbox"> {{name}} <input type="checkbox" name="players" value="{{id}}" checked disabled> </label> {{/each}} </div> </div> </form> '], ["@sigil.pf2e-ap196-199-season-of-ghosts.importer", "<form class='flexrow' autocomplete='off' data-pack='{{adventure.pack}}' data-adventure-id='{{adventure.id}}' > <header class='adventure-head'> <img class='chapter-image' src='{{adventure.img}}' title='{{adventure.name}}' /> <h1 class='chapter-heading'>{{adventure.name}}</h1> </header> <section class='adventure-overview'> <h2>{{localize 'ADVENTURE.ImportHeaderOverview'}}</h2> {{{adventure.description}}} <div class='form-group'> <label class='checkbox'> <input type='checkbox' name='dontShowAgain' {{checked this.dontShowAgain}} /> Don't show this dialog again </label> </div> </section> <section class='import-controls'> <h2>{{localize 'ADVENTURE.ImportHeaderContents'}}</h2> <div class='form-group'> <label class='checkbox'> <input type='checkbox' name='importFields' value='all' title='Import All' checked /> Import All </label> </div> {{#each contents}} <div class='form-group'> <label class='checkbox'> <input type='checkbox' name='importFields' value='{{this.field}}' title='Import {{this.label}}' checked disabled /> <i class='{{this.icon}}'></i> {{this.count}} {{this.label}} </label> </div> {{/each}} </section> {{#if hasImportOptions}} <section class='import-options'> <h2>Import Options</h2> {{#each importOptions as |option name|}} <div class='form-group'> <label class='checkbox'> <input type='checkbox' name='{{name}}' title='{{option.label}}' {{checked option.default}} /> {{option.label}} </label> </div> {{/each}} </section> {{/if}} <footer class='adventure-footer'> <button type='submit'> <i class='fas fa-download'></i> {{localize 'ADVENTURE.ImportSubmit'}} </button> </footer> </form>"], ["@sigil.pf2e-ap196-199-season-of-ghosts.journal", `<div class="journal-sheet-container"> <div class="decoration corner-ul"></div> <div class="decoration corner-ur"></div> <div class="decoration corner-bl"></div> <div class="decoration corner-br"></div> <div class="decoration leaves"></div> <div class="decoration branches"></div> {{! Sidebar Container }} <aside class="sidebar directory flexcol journal-sidebar {{sidebarClass}}"> {{! Sidebar Search }} <header class="directory-header"> <div class="header-search flexrow"> <a class="action-button view-mode" data-action="toggleView" data-tooltip="{{localize viewMode.label}}"><i class="{{viewMode.icon}}"></i></a> <input type="search" name="search" value="" autocomplete="off" placeholder="{{localize "SIDEBAR.Search" types=(localize "DOCUMENT.JournalEntryPages")}}"> <a class="action-button collapse-toggle" data-action="toggleCollapse" data-tooltip="{{localize collapseMode.label}}"><i class="{{collapseMode.icon}}"></i></a> </div> </header> {{! Sidebar Pages Navigation }} <nav class="pages-list" aria-label="{{localize 'JOURNAL.NavLabel'}}" data-tooltip-direction="RIGHT"> <ol class="directory-list scrollable"> {{#each toc as |page|}} <li class="directory-item {{page.cssClass}}" data-page-id="{{page._id}}"> <div class="page-heading"> <span class="page-number{{#if page.pageNumberClass}} {{page.pageNumberClass}}{{/if}}" data-tooltip="{{page.name}}">{{page.number}}.</span> <span class="page-title">{{page.name}}</span> {{#if page.icon}} <span class="page-ownership {{page.ownershipCls}}"><i class="{{page.icon}}"></i></span> {{/if}} </div> </li> {{/each}} </ol> </nav> {{! Sidebar Control Buttons }} <div class="action-buttons flexrow"> <button class="previous" type="button" data-action="previous" data-tooltip="{{localize 'JOURNAL.PrevPage'}}"> <i class="fa-solid fa-chevron-left"></i> </button> {{#if editable}} <button class="create" type="button" data-action="createPage"> <i class="fa-solid fa-file-circle-plus"></i> {{localize "JOURNAL.AddPage"}} </button> {{/if}} <button class="next" type="button" data-action="next" data-tooltip="{{localize 'JOURNAL.NextPage'}}"> <i class="fa-solid fa-chevron-right"></i> </button> </div> </aside> {{! Main Content }} <section class="journal-entry-content flexcol"> <form class="journal-header"> <input class="title" name="name" type="text" value="{{document.name}}" placeholder="{{localize "JOURNAL.EntryTitle"}}"/> </form> <div class="journal-entry-pages {{cssClass}} {{viewMode.cls}}"> <div class="scrollable"> {{#each pages as |page|}} <article class="journal-entry-page {{page.type}}{{#if (eq page.type "text")}} {{cssClass}}{{/if}}" data-page-id="{{page._id}}"> {{#if page.editable}} <div class="edit-container"> <a class="editor-edit"><i class="fas fa-edit"></i></a> </div> {{/if}} </article> {{/each}} </div> </div> </section> </div> `], ["@sigil.pf2e-ap196-199-season-of-ghosts.page-edit", '<form class="{{cssClass}} flexcol" autocomplete="off"> {{> journalEntryPageHeader}} {{editor editor.content target="text.content" class="journal-page-content" button=false editable=true engine=editor.engine collaborate=editor.collaborate}} </form> '], ["@sigil.pf2e-ap196-199-season-of-ghosts.page-view", '{{#if data.title.show}} <header class="journal-page-header"> <h{{data.title.level}}{{#if data.subtitle}} class="split"{{/if}}> <span>{{data.name}}</span> {{#if data.subtitle}} <span class="subtitle">{{data.subtitle}}</span> {{/if}} </h{{data.title.level}}> </header> {{/if}} <section class="journal-page-content"> {{{editor.content}}} </section> ']];
   _templateCache = _templateCache || {};
-  for (const [e, a] of n) {
-    const t = Handlebars.compile(a);
-    Handlebars.registerPartial(e, t), _templateCache[e] = t;
+  for (const [a, t] of o) {
+    const e = Handlebars.compile(t);
+    Handlebars.registerPartial(a, e), _templateCache[a] = e;
   }
 });
-function Z() {
+function B() {
   Hooks.once("init", async () => {
-    const n = game.modules.filter(
-      (e) => e.active && e.flags[c]?.adventureImporter
+    const o = game.modules.filter(
+      (a) => a.active && a.flags[d]?.adventureImporter
     );
-    for (const e of n)
-      game.settings.register(e.id, "firstStartup", {
+    for (const a of o)
+      game.settings.register(a.id, "firstStartup", {
         name: "One-Time Startup Prompt",
         scope: "world",
         config: !1,
         type: Boolean,
         default: !0
       });
-    Hooks.on("updateSetting", (e) => {
-      if (e.key === "core.moduleConfiguration")
-        for (const a of n)
-          game.settings.set(a.id, "firstStartup", !e.value[a.id]);
+    Hooks.on("updateSetting", (a) => {
+      if (a.key === "core.moduleConfiguration")
+        for (const t of o)
+          game.settings.set(t.id, "firstStartup", !a.value[t.id]);
     });
   }), Hooks.on("ready", async () => {
-    const n = game.modules.filter(
-      (e) => e.active && e.flags[c]?.adventureImporter
+    const o = game.modules.filter(
+      (a) => a.active && a.flags[d]?.adventureImporter
     );
-    for (const e of n)
-      if (game.settings.get(e.id, "firstStartup") && game.user.isGM)
-        for (const t of e.packs.filter((s) => s.type === "Adventure")) {
-          const i = await game.packs.get(`${e.id}.${t.name}`).getDocuments();
-          for (const o of i)
-            o.sheet.render(!0);
+    for (const a of o)
+      if (game.settings.get(a.id, "firstStartup") && game.user.isGM)
+        for (const e of a.packs.filter((s) => s.type === "Adventure")) {
+          const i = await game.packs.get(`${a.id}.${e.name}`).getDocuments();
+          for (const n of i)
+            n.sheet.render(!0);
         }
+  }), Hooks.on("activateNote", function(o, a) {
+    if (!o.entry)
+      return;
+    const e = o.document.flags.sigil?.scroll;
+    e && (a.scrollTag = e);
   });
 }
-d(Z, "adventures");
-function K() {
+u(B, "adventures");
+function V() {
   Hooks.once("init", () => {
-    game.settings.register(c, "distraction-free", {
+    game.settings.register(d, "distraction-free", {
       name: "Distraction Free Mode",
       hint: "Replaces Journal borders with a less visually distracting style.",
       scope: "client",
       config: !0,
       type: Boolean,
       default: !1,
-      onChange: (n) => {
-        n ? document.querySelectorAll(`.journal-sheet.${h}-wrapper`).forEach((e) => e.classList.add("distraction-free")) : document.querySelectorAll(`.journal-sheet.${h}-wrapper`).forEach((e) => e.classList.remove("distraction-free"));
+      onChange: (o) => {
+        o ? document.querySelectorAll(`.journal-sheet.${m}-wrapper`).forEach((a) => a.classList.add("distraction-free")) : document.querySelectorAll(`.journal-sheet.${m}-wrapper`).forEach((a) => a.classList.remove("distraction-free"));
       }
     });
   });
 }
-d(K, "distractionFreeMode");
-function Q() {
-  window.sigilMacros = window.sigilMacros ?? {}, window.sigilMacros[`${R.toLowerCase()}Macros`] = {
-    async toggleTokens(n, e) {
-      await this.toggleDocumentHiddenState(n, e, "Token");
+u(V, "distractionFreeMode");
+function Y() {
+  window.sigilMacros = window.sigilMacros ?? {}, window.sigilMacros[`${L.toLowerCase()}Macros`] = {
+    async toggleTokens(o, a) {
+      let t = !1, e;
+      o.sceneId && ({ sceneId: o, ids: a, force: t, state: e } = o), await this.toggleDocumentHiddenState({
+        sceneId: o,
+        ids: a,
+        type: "Token",
+        force: t,
+        state: e
+      });
     },
-    async toggleTiles(n, e) {
-      await this.toggleDocumentHiddenState(n, e, "Tile");
+    async toggleTiles(o, a) {
+      let t = !1, e;
+      o.sceneId && ({ sceneId: o, ids: a, force: t, state: e } = o), await this.toggleDocumentHiddenState({
+        sceneId: o,
+        ids: a,
+        type: "Tile",
+        force: t,
+        state: e
+      });
     },
-    async toggleDoors(n, e) {
-      await this.toggleDocumentHiddenState(n, e, "Wall");
+    async toggleDoors(o, a) {
+      let t = !1, e;
+      o.sceneId && ({ sceneId: o, ids: a, force: t, state: e } = o), await this.toggleDocumentHiddenState({
+        sceneId: o,
+        ids: a,
+        type: "Wall",
+        force: t,
+        state: e
+      });
     },
-    async toggleSounds(n, e) {
-      await this.toggleDocumentHiddenState(n, e, "AmbientSound");
+    async toggleSounds(o, a) {
+      let t = !1, e;
+      o.sceneId && ({ sceneId: o, ids: a, force: t, state: e } = o), await this.toggleDocumentHiddenState({
+        sceneId: o,
+        ids: a,
+        type: "AmbientSound",
+        force: t,
+        state: e
+      });
     },
-    async toggleLights(n, e) {
-      await this.toggleDocumentHiddenState(n, e, "AmbientLight");
+    async toggleLights(o, a) {
+      let t = !1, e;
+      o.sceneId && ({ sceneId: o, ids: a, force: t, state: e } = o), await this.toggleDocumentHiddenState({
+        sceneId: o,
+        ids: a,
+        type: "AmbientLight",
+        force: t,
+        state: e
+      });
     },
-    async playSound(n) {
-      const e = await fromUuid(n);
-      e.documentName === "PlaylistSound" && (e.parent.playing ? await e.parent.stopAll() : await e.parent.playSound(e)), e.documentName === "Playlist" && (e.playing ? await e.stopAll() : await e.playAll());
+    async playSound(o) {
+      let a, t = !1;
+      if (typeof o == "object" && ({ soundUuid: o = "", playing: a, stopAll: t } = o), t)
+        for (const s of game.playlists.playing)
+          await s.stopAll();
+      const e = await fromUuid(o);
+      e && (a ??= !e.playing, e.documentName === "PlaylistSound" && (a ? await e.parent.playSound(e) : await e.parent.stopSound(e)), e.documentName === "Playlist" && (a ? await e.playAll() : await e.stopAll()));
     },
-    async changeAmbience(n, e, a) {
-      canvas.scene.id === n && (canvas.scene.playlistSound.id === e ? await canvas.scene.update({ playlistSound: a }) : await canvas.scene.update({ playlistSound: e }));
+    async changeScene({ sceneId: o, ambience: a, weather: t, darkness: e, force: s }) {
+      if (canvas.scene.id === o || s) {
+        const i = game.scenes.get(o);
+        if (!i)
+          return;
+        const n = {};
+        a && (n.playlistSound = i.playlistSound.id === a.ambienceId1 ? a.ambienceId2 : a.ambienceId1), t && (n.weather = i.weather === t.weatherId1 ? t.weatherId2 : t.weatherId1), e && (n.darkness = i.darkness === e.darknessValue1 ? e.darknessValue2 : e.darknessValue1), await i.update(n);
+      }
     },
-    async changeWeather(n, e, a) {
-      canvas.scene.id === n && (canvas.scene.weather === e ? await canvas.scene.update({ weather: a }) : await canvas.scene.update({ weather: e }));
+    // legacy call for changeScene
+    async changeAmbience(o, a, t) {
+      const e = {};
+      o.sceneId ? e = o : e.sceneId = o, e.ambience ??= {}, e.ambience.ambienceId1 ??= a, e.ambience.ambienceId2 ??= t, await this.changeScene(e);
     },
-    async pickTileImage(n, e, a, t, s) {
+    // legacy call for changeScene
+    async changeWeather(o, a, t) {
+      const e = {};
+      o.sceneId ? e = o : e.sceneId = o, e.weather ??= {}, e.weather.weatherId1 ??= a, e.weather.weatherId2 ??= t, await this.changeScene(e);
+    },
+    async pickTileImage(o, a, t, e, s) {
+      o.sceneId && ({ sceneId: o, tileId: a, title: t, prompt: e, tileOptions: s } = o);
       const i = `async function changeTileImage(img, sceneId, tileId) {
         await game.scenes.get(sceneId)?.tiles.get(tileId)?.update({ "texture.src": img });
       }`;
-      async function o() {
-        await new Promise(async (l) => {
-          setTimeout(l, 200), await new Dialog(
+      async function n() {
+        await new Promise(async (c) => {
+          setTimeout(c, 200), await new Dialog(
             {
-              title: a,
+              title: t,
               content: r,
               buttons: { Close: { label: "Close" } }
             },
@@ -110,7 +168,7 @@ function Q() {
           ).render(!0);
         });
       }
-      d(o, "callTileMenu");
+      u(n, "callTileMenu");
       let r = `<style>
       .mhmenumain {
           margin: 1px auto;
@@ -126,192 +184,250 @@ function Q() {
           height: fit-content;
       }
       </style><script>${i}<\/script><div class="mhmenumain">`;
-      r += `<p style="text-align:center;">${t}</p>`, s.forEach((l, u) => {
-        r += `<button name="button${u}" class="mhbutton" type="button" onclick="changeTileImage('${l.img}','${n}','${e}')">${l.name}</button>`;
-      }), r += "</div><br></div>", o();
+      r += `<p style="text-align:center;">${e}</p>`, s.forEach((c, l) => {
+        r += `<button name="button${l}" class="mhbutton" type="button" onclick="changeTileImage('${c.img}','${o}','${a}')">${c.name}</button>`;
+      }), r += "</div><br></div>", n();
     },
-    async moveTile(n, e, a) {
-      if (canvas.scene.id === n) {
-        const t = canvas.scene.tiles.get(e);
-        let s = !0;
-        Object.keys(a[0]).forEach((i) => {
-          Object.keys(diffObject(t, a[0])).length > 0 && (s = !1);
-        }), t.update(a[s ? 1 : 0]);
+    async pickMacro({ title: o, prompt: a, macroOptions: t }) {
+      const e = `async function callMacro(macro) {
+        let pickedMacro = game.macros.find((m) => m.id === macro.id || (m.name === macro.macroName && m.folder?.id === macro.macroFolder));
+        if (pickedMacro) {
+          await pickedMacro.execute()
+        }
+      }`;
+      async function s() {
+        await new Promise(async (n) => {
+          setTimeout(n, 200), await new Dialog(
+            {
+              title: o,
+              content: i,
+              buttons: { Close: { label: "Close" } }
+            },
+            { width: 300 }
+          ).render(!0);
+        });
+      }
+      u(s, "callMacroMenu");
+      let i = `<style>
+      .mhmenumain {
+          margin: 1px auto;
+          background: url(systems/pf2e/assets/sheet/parchment.webp);
+      }
+      .mhmenu {
+          margin: 1px auto;
+          column-count: 1;
+          column-width: auto;
+      }
+      .mhbutton {
+          width: 100%;
+          height: fit-content;
+      }
+      </style><script>${e}<\/script><div class="mhmenumain">`;
+      i += `<p style="text-align:center;">${a}</p>`, t.forEach((n, r) => {
+        i += `<button name="button${r}" class="mhbutton" type="button" onclick="callMacro({macroName: '${n.macroName}', macroFolder: '${n.macroFolder}', id: '${n.id}'})">${n.name}</button>`;
+      }), i += "</div><br></div>", s();
+    },
+    async moveTile(o, a, t) {
+      let e;
+      if (o.sceneId && ({ sceneId: o, tileId: a, states: t, force: e } = o), canvas.scene.id === o || e) {
+        const s = game.scenes.get(o).tiles.get(a);
+        let i = !0;
+        Object.keys(t[0]).forEach((n) => {
+          Object.keys(diffObject(s, t[0])).length > 0 && (i = !1);
+        }), s.update(t[i ? 1 : 0]);
       }
     },
-    async changeToken(n, e, a) {
-      if (canvas.scene.id === n) {
-        const t = canvas.scene.tokens.get(e) || canvas.scene.tokens.getName(e);
-        let s = !0;
-        Object.keys(a[0]).forEach((i) => {
-          Object.keys(diffObject(t, a[0])).length > 0 && (s = !1);
-        }), t.update(a[s ? 1 : 0]);
+    async updateSceneChildDocuments({ sceneId: o, documentName: a, data: t, animate: e = !1 }) {
+      let s;
+      const i = game.scenes.get(o);
+      switch (a) {
+        case "Token":
+          s = i.tokens;
+          break;
+        case "Wall":
+          s = i.walls;
+          break;
+        case "AmbientLight":
+          s = i.lights;
+          break;
+        case "Note":
+          s = i.notes;
+          break;
+        case "Tile":
+          s = i.tiles;
+          break;
+        case "AmbientSound":
+          s = i.sounds;
+          break;
+        default:
+          return;
+      }
+      const n = Object.entries(t).reduce((r, [c, l]) => (s.has(c) && r.push({ _id: c, ...l }), r), []);
+      return canvas.scene.updateEmbeddedDocuments(a, n, { animate: e });
+    },
+    async changeToken(o, a, t) {
+      let e, s;
+      if (o.sceneId && ({ sceneId: o, tokenId: a, states: t, force: e, checkAlive: s } = o), canvas.scene.id === o || e) {
+        const i = game.scenes.get(o), n = i.tokens.get(a) || i.tokens.getName(a);
+        if (!n)
+          return;
+        if (s) {
+          let c = !1;
+          if (Array.isArray(s))
+            for (const l of s)
+              c = c || (await fromUuid(l))?.actor?.isDead;
+          if (c = c || n.actor.isDead, c) {
+            n.actor.update({ "system.attributes.hp.value": 0 });
+            return;
+          }
+        }
+        let r = !0;
+        Object.keys(t[0]).forEach((c) => {
+          Object.keys(diffObject(n, t[0])).length > 0 && (r = !1);
+        }), n.update(t[r ? 1 : 0], { animate: !1 });
       }
     },
-    async toggleDocumentHiddenState(n, e, a) {
-      if (canvas.scene.id === n) {
-        typeof e == "string" && (e = [e]);
-        const { SECRET: t } = CONST.WALL_DOOR_TYPES;
-        let s = [], i = [];
-        switch (a) {
+    async toggleDocumentHiddenState({ sceneId: o, ids: a, type: t, force: e, state: s }) {
+      if (canvas.scene.id === o || e) {
+        typeof a == "string" && (a = [a]);
+        const { SECRET: i } = CONST.WALL_DOOR_TYPES, n = game.scenes.get(o);
+        let r = [], c = [];
+        switch (t) {
           case "Tile":
-            s = canvas.scene.tiles.filter((o) => e.includes(o.id)), i = s.map((o) => ({ _id: o.id, hidden: !o.hidden }));
+            r = n.tiles.filter((l) => a.includes(l.id)), c = r.map((l) => ({ _id: l.id, hidden: s === void 0 ? !l.hidden : s }));
             break;
           case "Token":
-            s = canvas.scene.tokens.filter((o) => e.includes(o.id)), i = s.map((o) => ({ _id: o.id, hidden: !o.hidden }));
+            r = n.tokens.filter((l) => a.includes(l.id)), c = r.map((l) => ({ _id: l.id, hidden: s === void 0 ? !l.hidden : s }));
             break;
           case "Wall":
-            e[0] === "all" ? s = canvas.scene.walls.filter((o) => o.door === t) : s = canvas.scene.walls.filter((o) => e.includes(o.id)), i = s.map((o) => ({ _id: o.id, ds: o.ds === 1 ? 0 : 1 }));
+            a[0] === "all" ? r = n.walls.filter((l) => l.door === i) : r = n.walls.filter((l) => a.includes(l.id)), c = r.map((l) => ({ _id: l.id, ds: s === void 0 ? l.ds === 1 ? 0 : 1 : s }));
             break;
           case "AmbientLight":
-            s = canvas.scene.lights.filter((o) => e.includes(o.id)), i = s.map((o) => ({ _id: o.id, hidden: !o.hidden }));
+            r = n.lights.filter((l) => a.includes(l.id)), c = r.map((l) => ({ _id: l.id, hidden: s === void 0 ? !l.hidden : s }));
             break;
           case "AmbientSound":
-            s = canvas.scene.sounds.filter((o) => e.includes(o.id)), i = s.map((o) => ({ _id: o.id, hidden: !o.hidden }));
+            r = n.sounds.filter((l) => a.includes(l.id)), c = r.map((l) => ({ _id: l.id, hidden: s === void 0 ? !l.hidden : s }));
             break;
           default:
             ui.notifications.warn("Attempting to change unknown Document Type");
         }
-        i.length > 0 && await canvas.scene.updateEmbeddedDocuments(a, i);
+        c.length > 0 && await n.updateEmbeddedDocuments(t, c);
       }
     }
-  }, window.sigilMacros[`${Y.productSlug.toLowerCase()}Macros`] = window.sigilMacros[`${R.toLowerCase()}Macros`];
+  }, window.sigilMacros[`${q.productSlug.toLowerCase()}Macros`] = window.sigilMacros[`${L.toLowerCase()}Macros`];
 }
-d(Q, "globalMacroHelpers");
-function X() {
+u(Y, "globalMacroHelpers");
+function Z() {
   Hooks.once("init", () => {
-    game.settings.register(c, "safe-journal", {
+    game.settings.register(d, "safe-journal", {
       name: "Journal Freeze Workaround",
       hint: "Workaround for a Chrome issue that can cause all journals to freeze under certain circumstances.",
       scope: "client",
       config: !0,
       type: Boolean,
       default: !1,
-      onChange: (n) => {
-        n ? document.querySelectorAll(`.journal-sheet.${h}-wrapper`).forEach((e) => e.classList.add("safe-journal")) : document.querySelectorAll(`.journal-sheet.${h}-wrapper`).forEach((e) => e.classList.remove("safe-journal"));
+      onChange: (o) => {
+        o ? document.querySelectorAll(`.journal-sheet.${m}-wrapper`).forEach((a) => a.classList.add("safe-journal")) : document.querySelectorAll(`.journal-sheet.${m}-wrapper`).forEach((a) => a.classList.remove("safe-journal"));
       }
     });
   });
 }
-d(X, "safeJournalMode");
-const ee = {
-  adventures: Z,
-  "distraction-free-mode": K,
-  "global-macro-helpers": Q,
-  "safe-journal-mode": X
+u(Z, "safeJournalMode");
+const K = {
+  adventures: B,
+  "distraction-free-mode": V,
+  "global-macro-helpers": Y,
+  "safe-journal-mode": Z
 };
-for (const [n, e] of Object.entries(ee))
-  _?.[n] && e();
-var v, P, w, E, j, H, A, J, I, W, T, F, z, G;
-const $ = class $ extends AdventureImporter {
+for (const [o, a] of Object.entries(K))
+  I?.[o] && a();
+var C, R, O, H;
+const P = class P extends AdventureImporter {
   /**
    *  Add adventure stuff
    *
    * @param {Adventure} adventure
    * @param {object} options
    */
-  constructor(a, t) {
-    super(a, t);
-    /* -------------------------------------------- */
-    /**
-     * Merge Actor data with authoritative source data from system compendium packs
-     *
-     * @param {Actor[]} actors        Actor documents intended to be imported
-     * @param {object} importOptions  Form submission import options
-     * @returns {Promise<void>}
-     */
-    g(this, v);
-    g(this, w);
-    g(this, j);
-    g(this, A);
+  constructor(t, e) {
+    super(t, e);
     /* -------------------------------------------- */
     /**
      * Handle toggling the import all checkbox.
      *
      * @param {Event} event  The change event.
      */
-    g(this, I);
+    y(this, C);
     /**
      * Handle toggling the don't show again checkbox.
      *
      * @param {Event} event  The change event.
      */
-    g(this, T);
-    /* -------------------------------------------- */
-    /**
-     * Remove adventure content that the user indicated they did not want to import.
-     *
-     * @param {object} formData  The submitted adventure form data.
-     * @param {object} toCreate  An object of document data to create.
-     * @param {object} toUpdate  An object of document data to update.
-     */
-    g(this, z);
-    this.options.classes.push(h);
+    y(this, O);
+    this.options.classes.push(m);
     const s = game.modules.get(this.adventure.compendium.metadata.packageName), {
       initialSceneId: i,
-      initialJournalEntryId: o,
+      initialJournalEntryId: n,
       initialJournalPageId: r,
-      initialLoginScreenBackground: l,
-      additionalItems: u,
-      removeItems: p,
-      chatMessage: m
-    } = s.flags?.[c]?.adventureImporter?.[this.adventure.uuid] || {};
-    this.additionalItems = u ?? {}, this.removeItems = p ?? {}, this.importOptions = {}, i && (this.importOptions.activateScene = {
+      initialLoginScreenBackground: c,
+      chatMessage: l
+    } = s.flags?.[d]?.adventureImporter?.[this.adventure.uuid] || {};
+    this.importOptions = {}, i && (this.importOptions.activateScene = {
       label: "Activate Initial Scene",
       default: !0,
       handler: () => game.scenes.get(i)?.activate()
-    }), o && r && (this.importOptions.displayJournal = {
+    }), n && r && (this.importOptions.displayJournal = {
       label: "Display Introduction Journal Entry",
       default: !0,
       handler: () => {
-        game.journal.get(o).sheet.render(!0, { pageId: r });
+        game.journal.get(n).sheet.render(!0, { pageId: r });
       }
-    }), l && (this.importOptions.customizeJoin = {
+    }), c && (this.importOptions.customizeJoin = {
       label: "Style Login Screen",
       default: !1,
       handler: async () => {
-        const y = {
+        const p = {
           id: game.world.id,
           action: "editWorld",
           description: s.description,
-          background: `modules/${s.id}/${l}`
-        }, U = await foundry.utils.fetchJsonWithTimeout(
+          background: `modules/${s.id}/${c}`
+        }, f = await foundry.utils.fetchJsonWithTimeout(
           foundry.utils.getRoute("setup"),
           {
             method: "POST",
             headers: { "Content-Type": "application/json" },
-            body: JSON.stringify(y)
+            body: JSON.stringify(p)
           }
         );
-        game.world.updateSource(U);
+        game.world.updateSource(f);
       }
-    }), m?.label && m?.content && (this.importOptions.chatMessage = {
-      label: m.label,
+    }), l?.label && l?.content && (this.importOptions.chatMessage = {
+      label: l.label,
       default: !0,
       handler: () => {
         ChatMessage.create({
-          content: m.content,
+          content: l.content,
           whisper: ChatMessage.getWhisperRecipients("GM")
         });
       }
     });
   }
   get template() {
-    return `@sigil.${c}.importer`;
+    return `@sigil.${d}.importer`;
   }
   /* -------------------------------------------- */
   /** @inheritDoc */
-  async getData(a = {}) {
-    const t = await super.getData(), s = game.modules.get(this.adventure.compendium.metadata.packageName);
-    return t.importOptions = this.importOptions || {}, t.hasImportOptions = Object.keys(t.importOptions).length > 0, t.dontShowAgain = !game.settings.get(s.id, "firstStartup"), t;
+  async getData(t = {}) {
+    const e = await super.getData(), s = game.modules.get(this.adventure.compendium.metadata.packageName);
+    return e.importOptions = this.importOptions || {}, e.hasImportOptions = Object.keys(e.importOptions).length > 0, e.dontShowAgain = !game.settings.get(s.id, "firstStartup"), e;
   }
   /* -------------------------------------------- */
   /** @inheritDoc */
-  activateListeners(a) {
-    super.activateListeners(a), a.find('input[value="all"]')[0].addEventListener("change", (t) => {
-      f(this, I, W).call(this, t);
-    }), a.find('input[name="dontShowAgain"]')[0].addEventListener("change", (t) => {
-      f(this, T, F).call(this, t);
+  activateListeners(t) {
+    super.activateListeners(t), t.find('input[value="all"]')[0].addEventListener("change", (e) => {
+      g(this, C, R).call(this, e);
+    }), t.find('input[name="dontShowAgain"]')[0].addEventListener("change", (e) => {
+      g(this, O, H).call(this, e);
     });
   }
   /* -------------------------------------------- */
@@ -322,154 +438,223 @@ const $ = class $ extends AdventureImporter {
    * @protected
    */
   _getContentList() {
-    return Object.entries(Adventure.contentFields).reduce((a, [t, s]) => {
-      const i = this.adventure[t].size;
-      return i && a.push({
-        field: t,
+    return Object.entries(Adventure.contentFields).reduce((t, [e, s]) => {
+      const i = this.adventure[e].size;
+      return i && t.push({
+        field: e,
         icon: CONFIG[s.documentName].sidebarIcon,
         label: game.i18n.localize(i > 1 ? s.metadata.labelPlural : s.metadata.label),
         count: i
-      }), a;
+      }), t;
     }, []);
   }
   /* -------------------------------------------- */
   /** @inheritDoc */
-  async _prepareImportData(a) {
-    this.submitOptions = a;
-    const { toCreate: t, toUpdate: s, documentCount: i } = await super._prepareImportData(a);
-    return f(this, z, G).call(this, a, t, s), "Actor" in t && await f(this, v, P).call(this, t.Actor), "Actor" in s && await f(this, v, P).call(this, s.Actor), "Scene" in t && await f(this, w, E).call(this, t.Scene), "Scene" in s && await f(this, w, E).call(this, s.Scene), { toCreate: t, toUpdate: s, documentCount: i };
+  async _prepareImportData(t) {
+    this.submitOptions = t;
+    const { toCreate: e, toUpdate: s, documentCount: i } = await super._prepareImportData(t);
+    return this.applyImportControls(t, e, s), "Scene" in e && await this.mergeCompendiumScenes(e.Scene), "Scene" in s && await this.mergeCompendiumScenes(s.Scene), { toCreate: e, toUpdate: s, documentCount: i };
   }
   /* -------------------------------------------- */
   /** @inheritDoc */
-  async _importContent(a, t, s) {
-    const i = await super._importContent(a, t, s);
-    for (const [r, l] of Object.entries(this.importOptions ?? {}))
-      !l.handler || !this.submitOptions[r] || await l.handler();
-    const o = game.modules.get(this.adventure.compendium.metadata.packageName);
-    return game.settings.set(o.id, "firstStartup", !1), i;
+  async _importContent(t, e, s) {
+    const i = await super._importContent(t, e, s);
+    for (const [r, c] of Object.entries(this.importOptions ?? {}))
+      !c.handler || !this.submitOptions[r] || await c.handler();
+    const n = game.modules.get(this.adventure.compendium.metadata.packageName);
+    return game.settings.set(n.id, "firstStartup", !1), i;
+  }
+  /* -------------------------------------------- */
+  async mergeCompendiumScenes(t) {
+    const e = game.settings.get("core", "defaultToken");
+    for (const s of t)
+      for (let i of s.tokens)
+        i = Object.assign(i, foundry.utils.mergeObject(i, e));
+  }
+  /* -------------------------------------------- */
+  /**
+   * Remove adventure content that the user indicated they did not want to import.
+   *
+   * @param {object} formData  The submitted adventure form data.
+   * @param {object} toCreate  An object of document data to create.
+   * @param {object} toUpdate  An object of document data to update.
+   */
+  applyImportControls(t, e, s) {
+    const i = t.importFields.filter((r) => r);
+    if (i.push("folders"), !i || !Array.isArray(i) || i.some((r) => r === "all"))
+      return;
+    const n = new Set(i.map((r) => Adventure.contentFields[r].documentName));
+    [e, s].forEach((r) => {
+      for (const c of Object.keys(r))
+        n.has(c) || delete r[c];
+      r.Folder && (r.Folder = r.Folder.filter((c) => n.has(c.type)));
+    });
   }
 };
-v = new WeakSet(), P = /* @__PURE__ */ d(async function(a) {
-  for (let t of a) {
-    const [, s, i, o, r] = t.flags?.core?.sourceId?.split?.(".") ?? [], l = game.packs.get(`${s}.${i}`);
-    if (!l?.index?.has?.(r || o)) {
-      l && console.warn(
-        `[${s}] Compendium source data for "${t.name}" [${t._id}] not found in pack ${l?.collection}`
+C = new WeakSet(), R = /* @__PURE__ */ u(function(t) {
+  const e = t.currentTarget, s = e.closest(".import-controls"), i = e.checked;
+  s.querySelectorAll("input").forEach((n) => {
+    n.value !== "folders" && (n.disabled = i), i && (n.checked = !0);
+  }), e.disabled = !1;
+}, "#onToggleImportAll"), O = new WeakSet(), H = /* @__PURE__ */ u(function(t) {
+  const s = t.currentTarget.checked, i = game.modules.get(this.adventure.compendium.metadata.packageName);
+  game.settings.set(i.id, "firstStartup", !s);
+}, "#onToggleDontShowAgain"), u(P, "SigilAdventureImporter");
+let D = P;
+var b, z, T, J, A, W;
+const E = class E extends D {
+  /**
+   *  Add adventure stuff
+   *
+   * @param {Adventure} adventure
+   * @param {object} options
+   */
+  constructor(t, e) {
+    super(t, e);
+    /* -------------------------------------------- */
+    /**
+     * Merge Actor data with authoritative source data from system compendium packs
+     *
+     * @param {Actor[]} actors        Actor documents intended to be imported
+     * @param {object} importOptions  Form submission import options
+     * @returns {Promise<void>}
+     */
+    y(this, b);
+    y(this, T);
+    y(this, A);
+    this.options.classes.push(m);
+    const s = game.modules.get(this.adventure.compendium.metadata.packageName), { additionalItems: i, removeItems: n, partyToken: r } = s.flags?.[d]?.adventureImporter?.[this.adventure.uuid] || {};
+    this.additionalItems = i ?? {}, this.removeItems = n ?? {}, r && (this.importOptions.partyToken = {
+      label: "Use Adventure Party Token",
+      default: !1,
+      handler: () => game.actors.party?.update({ img: r })
+    });
+  }
+  /* -------------------------------------------- */
+  /** @inheritDoc */
+  async _prepareImportData(t) {
+    this.submitOptions = t;
+    const { toCreate: e, toUpdate: s, documentCount: i } = await super._prepareImportData(t);
+    return this.applyImportControls(t, e, s), "Actor" in e && await g(this, b, z).call(this, e.Actor), "Actor" in s && await g(this, b, z).call(this, s.Actor), "Scene" in e && await this.mergeCompendiumScenes(e.Scene), "Scene" in s && await this.mergeCompendiumScenes(s.Scene), { toCreate: e, toUpdate: s, documentCount: i };
+  }
+};
+b = new WeakSet(), z = /* @__PURE__ */ u(async function(t) {
+  for (let e of t) {
+    const [, s, i, n, r] = e.flags?.core?.sourceId?.split?.(".") ?? [], c = game.packs.get(`${s}.${i}`);
+    if (!c?.index?.has?.(r || n)) {
+      c && console.warn(
+        `[${s}] Compendium source data for "${e.name}" [${e._id}] not found in pack ${c?.collection}`
       );
       continue;
     }
-    const u = await l.getDocument(r), p = u.toObject(), m = (p.items ?? []).filter(f(this, j, H).bind(this, t._id));
-    await f(this, A, J).call(this, t._id, m), u.type === "npc" && (t = Object.assign(
-      t,
+    const l = await c.getDocument(r), p = l.toObject(), f = (p.items ?? []).filter(g(this, T, J).bind(this, e._id));
+    await g(this, A, W).call(this, e._id, f), l.type === "npc" && (e = Object.assign(
+      e,
       foundry.utils.mergeObject(p, {
-        folder: t.folder,
-        img: t.img,
-        items: m,
-        name: t.name,
-        "prototypeToken.name": t.prototypeToken.name,
-        "prototypeToken.texture": t.prototypeToken.texture,
-        "prototypeToken.randomImg": t.prototypeToken.randomImg,
-        "prototypeToken.flags.pf2e": t.prototypeToken.flags?.pf2e,
-        "system.attributes.adjustment": t.system.attributes.adjustment,
-        "system.details.alignment": t.system.details.alignment,
-        "system.details.blurb": t.system.details.blurb,
-        "system.attributes.hp.value": t.system.attributes.hp.value,
-        "system.traits.languages.value": t.system.traits.languages.value,
-        "system.traits.value": t.system.traits.value,
-        "system.traits.size": t.system.traits.size,
-        _id: t._id
+        folder: e.folder,
+        img: e.img,
+        items: f,
+        name: e.name,
+        "prototypeToken.name": e.prototypeToken?.name,
+        "prototypeToken.texture": e.prototypeToken?.texture,
+        "prototypeToken.randomImg": e.prototypeToken?.randomImg,
+        "prototypeToken.flags.pf2e": e.prototypeToken?.flags?.pf2e,
+        "system.attributes.adjustment": e.system.attributes?.adjustment,
+        "system.details.alignment": e.system.details?.alignment,
+        "system.details.blurb": e.system.details?.blurb,
+        "system.attributes.hp.value": e.system.attributes?.hp?.value,
+        "system.details.languages.value": e.system.details?.languages?.value,
+        "system.traits.value": e.system.traits?.value,
+        "system.traits.size": e.system.traits?.size,
+        _id: e._id
       })
-    )), u.type === "hazard" && (t = Object.assign(
-      t,
+    )), l.type === "hazard" && (e = Object.assign(
+      e,
       foundry.utils.mergeObject(p, {
-        folder: t.folder,
-        img: t.img,
-        items: m,
-        name: t.name,
-        "prototypeToken.name": t.prototypeToken.name,
-        "prototypeToken.texture": t.prototypeToken.texture,
-        "prototypeToken.width": t.prototypeToken.width,
-        "prototypeToken.height": t.prototypeToken.height,
-        "system.traits.value": t.system.traits.value,
-        _id: t._id
+        folder: e.folder,
+        img: e.img,
+        items: f,
+        name: e.name,
+        "prototypeToken.name": e.prototypeToken?.name,
+        "prototypeToken.texture": e.prototypeToken?.texture,
+        "prototypeToken.width": e.prototypeToken?.width,
+        "prototypeToken.height": e.prototypeToken?.height,
+        "system.traits.value": e.system.traits?.value,
+        _id: e._id
+      })
+    )), l.type === "vehicle" && (e = Object.assign(
+      e,
+      foundry.utils.mergeObject(p, {
+        folder: e.folder,
+        img: e.img,
+        items: f,
+        name: e.name,
+        "prototypeToken.name": e.prototypeToken?.name,
+        "prototypeToken.texture": e.prototypeToken?.texture,
+        "prototypeToken.width": e.prototypeToken?.width,
+        "prototypeToken.height": e.prototypeToken?.height,
+        _id: e._id
       })
     ));
   }
-}, "#mergeCompendiumActors"), w = new WeakSet(), E = /* @__PURE__ */ d(async function(a) {
-}, "#mergeCompendiumScenes"), j = new WeakSet(), H = /* @__PURE__ */ d(function(a, t) {
-  return !this.removeItems[a]?.some((s) => s.id === t._id) || !this.removeItems[a]?.some((s) => s.name === t.name);
-}, "#filterItems"), A = new WeakSet(), J = /* @__PURE__ */ d(async function(a, t) {
-  const s = this.additionalItems[a] ?? [], i = t.map((o) => o._id);
-  for (const o of s) {
-    const r = (await fromUuid(o)).toObject();
+}, "#mergeCompendiumActors"), T = new WeakSet(), J = /* @__PURE__ */ u(function(t, e) {
+  return !this.removeItems[t]?.some((s) => s.id === e._id) || !this.removeItems[t]?.some((s) => s.name === e.name);
+}, "#filterItems"), A = new WeakSet(), W = /* @__PURE__ */ u(async function(t, e) {
+  const s = this.additionalItems[t] ?? [], i = e.map((n) => n._id);
+  for (const n of s) {
+    const r = (await fromUuid(n)).toObject();
     for (; i.includes(r._id); )
       r._id = randomID();
-    i.push(r._id), t.push(r);
+    i.push(r._id), e.push(r);
   }
-}, "#addItems"), I = new WeakSet(), W = /* @__PURE__ */ d(function(a) {
-  const t = a.currentTarget, s = t.closest(".import-controls"), i = t.checked;
-  s.querySelectorAll("input").forEach((o) => {
-    o.value !== "folders" && (o.disabled = i), i && (o.checked = !0);
-  }), t.disabled = !1;
-}, "#onToggleImportAll"), T = new WeakSet(), F = /* @__PURE__ */ d(function(a) {
-  const s = a.currentTarget.checked, i = game.modules.get(this.adventure.compendium.metadata.packageName);
-  game.settings.set(i.id, "firstStartup", !s);
-}, "#onToggleDontShowAgain"), z = new WeakSet(), G = /* @__PURE__ */ d(function(a, t, s) {
-  const i = a.importFields.filter((r) => r);
-  if (i.push("folders"), !i || !Array.isArray(i) || i.some((r) => r === "all"))
-    return;
-  const o = new Set(i.map((r) => Adventure.contentFields[r].documentName));
-  [t, s].forEach((r) => {
-    for (const l of Object.keys(r))
-      o.has(l) || delete r[l];
-    r.Folder && (r.Folder = r.Folder.filter((l) => o.has(l.type)));
-  });
-}, "#applyImportControls"), d($, "SigilPF2EAdventureImporter");
-let x = $;
+}, "#addItems"), u(E, "SigilPF2EAdventureImporter");
+let x = E;
 Hooks.once("init", () => {
-  DocumentSheetConfig.registerSheet(Adventure, c, x, {
-    label: `${k} Importer`,
+  DocumentSheetConfig.registerSheet(Adventure, d, x, {
+    label: `${v} Importer`,
     makeDefault: !1
   });
 });
-const M = class M extends JournalSheet {
+const N = class N extends JournalSheet {
   static get defaultOptions() {
-    const e = {
-      classes: ["sheet", "journal-sheet", "journal-entry", `${h}-wrapper`],
+    const a = {
+      classes: ["sheet", "journal-sheet", "journal-entry", `${m}-wrapper`],
       width: window.innerWidth < 800 ? 720 : 960,
       height: window.innerHeight < 1e3 ? 700 : 800
     };
-    return _?.["distraction-free-mode"] && game.settings.get(c, "distraction-free") && e.classes.push("distraction-free"), _?.["safe-journal-mode"] && game.settings.get(c, "safe-journal") && e.classes.push("safe-journal"), foundry.utils.mergeObject(super.defaultOptions, e);
+    return I?.["distraction-free-mode"] && game.settings.get(d, "distraction-free") && a.classes.push("distraction-free"), I?.["safe-journal-mode"] && game.settings.get(d, "safe-journal") && a.classes.push("safe-journal"), foundry.utils.mergeObject(super.defaultOptions, a);
   }
   get template() {
-    return `@sigil.${c}.journal`;
+    return `@sigil.${d}.journal`;
   }
-  getData(e) {
-    const a = super.getData(e);
-    return a.cssClass = h, this?.document?.flags?.sigil?.additionalCssClass && (a.cssClass += ` ${this.document.flags.sigil.additionalCssClass}`), a;
+  getData(a) {
+    const t = super.getData(a);
+    t.cssClass = m;
+    let e = this?.document?.flags?.sigil?.additionalCssClass;
+    return typeof e == "string" && (e = e.split(" ")), Array.isArray(e) && e && (t.cssClass = [m, ...e].join(" ")), t;
   }
   _getPageData() {
-    let e = 1;
-    return super._getPageData().map((a) => (a?.flags[c]?.pageNumber ? (a.number = a.flags[c].pageNumber, typeof a?.flags[c]?.pageNumber == "number" && (e = a.number + 1)) : a.number = e++, a?.flags[c]?.pageNumberClass && (a.pageNumberClass = a.flags[c].pageNumberClass), a.editable = a.editable && a?.flags[c]?.editable, a));
+    let a = 1;
+    return super._getPageData().map((t) => (t?.flags[d]?.pageNumber ? (t.number = t.flags[d].pageNumber, typeof t?.flags[d]?.pageNumber == "number" && (a = t.number + 1)) : t.number = a++, t?.flags[d]?.pageNumberClass && (t.pageNumberClass = t.flags[d].pageNumberClass), t.editable = t.editable && t?.flags[d]?.editable, t));
   }
-  async _renderHeadings(e, a) {
-    return Object.entries(a || {}).forEach(([t, s]) => {
-      s.element.classList.contains("no-toc") && delete a[t];
+  async _renderHeadings(a, t) {
+    return Object.entries(t || {}).forEach(([e, s]) => {
+      s.element.classList.contains("no-toc") && delete t[e];
       const i = s.element?.querySelectorAll("span");
       i.length > 0 && (s.text = i[0].textContent);
-    }), await super._renderHeadings(e, a);
+    }), await super._renderHeadings(a, t);
   }
-  _onResizeMouseDown(e) {
+  _onResizeMouseDown(a) {
     this._chromeShapeOutsideFreezeWorkaround(!0);
   }
-  _onResize(e) {
-    this._onResizeMouseUp(e);
+  _onResize(a) {
+    this._onResizeMouseUp(a);
   }
-  _onResizeMouseUp(e) {
+  _onResizeMouseUp(a) {
     this._chromeShapeOutsideFreezeWorkaround(!1);
   }
-  _chromeShapeOutsideFreezeWorkaround(e) {
-    this.element[0].classList[e ? "add" : "remove"]("resizing");
+  _chromeShapeOutsideFreezeWorkaround(a) {
+    this.element[0].classList[a ? "add" : "remove"]("resizing");
   }
   async minimize() {
     !this.rendered || !this.popOut || [!0, null].includes(this._minimized) || (this._chromeShapeOutsideFreezeWorkaround(!0), await super.minimize());
@@ -481,20 +666,36 @@ const M = class M extends JournalSheet {
     !this.rendered || !this.popOut || [!0, null].includes(this._minimized) || (this._chromeShapeOutsideFreezeWorkaround(!0), await super.close());
   }
   async _renderOuter() {
-    const e = await super._renderOuter();
-    return e.find("div.window-resizable-handle")[0].addEventListener("pointerdown", this._onResizeMouseDown.bind(this)), e;
+    const a = await super._renderOuter();
+    return a.find("div.window-resizable-handle")[0].addEventListener("pointerdown", this._onResizeMouseDown.bind(this)), a;
+  }
+  /** @override */
+  async _render(a = !1, t = {}) {
+    let e = this?.document?.flags?.sigil?.additionalCssClass;
+    if (typeof e == "string" && (e = e.split(" ")), t.classes = t.classes || this.constructor.defaultOptions.classes, Array.isArray(e))
+      for (const s of e)
+        t.classes.includes(s + "-wrapper") || t.classes.push(s + "-wrapper");
+    if (t.action === "update" && this._state !== Application.RENDER_STATES.NONE && JSON.stringify(this.options.classes) !== JSON.stringify(t.classes))
+      return this.close();
+    if (await super._render(a, t), "scrollTag" in t) {
+      this._scrollPositions ??= {};
+      const s = this._scrollPositions[".scrollable"] ??= [], i = this.element[0].querySelector(`[data-scroll='${t.scrollTag}']`)?.offsetTop;
+      if (!i)
+        return;
+      s.length ? s[1] = i : s.push(0, i), this._restoreScrollPositions(this.element);
+    }
   }
 };
-d(M, "SigilJournalSheet");
-let S = M;
-const N = class N extends JournalTextPageSheet {
+u(N, "SigilJournalSheet");
+let k = N;
+const M = class M extends JournalTextPageSheet {
   get template() {
-    return `@sigil.${c}.page-${this.isEditable ? "edit" : "view"}`;
+    return `@sigil.${d}.page-${this.isEditable ? "edit" : "view"}`;
   }
-  async showWhisperDialog(e, a) {
-    if (!(e instanceof JournalEntry || e instanceof JournalEntryPage))
+  async showWhisperDialog(a, t) {
+    if (!(a instanceof JournalEntry || a instanceof JournalEntryPage))
       return;
-    if (!e.isOwner)
+    if (!a.isOwner)
       return ui.notifications.error("JOURNAL.ShowBadPermissions", {
         localize: !0
       });
@@ -502,7 +703,7 @@ const N = class N extends JournalTextPageSheet {
       return ui.notifications.warn("JOURNAL.ShowNoPlayers", {
         localize: !0
       });
-    const t = game.users.filter((i) => i.id !== game.userId), s = await renderTemplate(`@sigil.${c}.dialog-show`, { users: t });
+    const e = game.users.filter((i) => i.id !== game.userId), s = await renderTemplate(`@sigil.${d}.dialog-show`, { users: e });
     return Dialog.prompt({
       // title: game.i18n.format("JOURNAL.ShowEntry", {name: doc.name}),
       // label: game.i18n.localize("JOURNAL.ActionShow"),
@@ -510,69 +711,74 @@ const N = class N extends JournalTextPageSheet {
       label: "Whisper to Selected Players",
       content: s,
       render: (i) => {
-        const o = i.querySelector("form");
-        o.elements.allPlayers.addEventListener("change", (r) => {
-          const l = r.currentTarget.checked;
-          o.querySelectorAll('[name="players"]').forEach((u) => {
-            u.checked = l, u.disabled = l;
+        const n = i.querySelector("form");
+        n.elements.allPlayers.addEventListener("change", (r) => {
+          const c = r.currentTarget.checked;
+          n.querySelectorAll('[name="players"]').forEach((l) => {
+            l.checked = c, l.disabled = c;
           });
         });
       },
       callback: async (i) => {
-        const o = i.querySelector("form"), r = new FormDataExtended(o).object, l = r.allPlayers ? game.users.filter((p) => !p.isSelf) : r.players.reduce((p, m) => {
-          const y = game.users.get(m);
-          return y && !y.isSelf && p.push(y), p;
+        const n = i.querySelector("form"), r = new FormDataExtended(n).object, c = r.allPlayers ? game.users.filter((p) => !p.isSelf) : r.players.reduce((p, f) => {
+          const j = game.users.get(f);
+          return j && !j.isSelf && p.push(j), p;
         }, []);
-        if (!l.length)
+        if (!c.length)
           return;
-        const u = l.map((p) => p.id);
+        const l = c.map((p) => p.id);
         return ChatMessage.create({
-          whisper: u,
-          content: a
+          whisper: l,
+          content: t
         });
       },
       rejectClose: !1,
       options: { jQuery: !1 }
     });
   }
-  async _onClickReadAloud(e) {
-    if (e.preventDefault(), ["IMG", "A"].includes(e.target.tagName))
+  async _onClickReadAloud(a) {
+    if (a.preventDefault(), ["IMG", "A"].includes(a.target.tagName))
       return;
-    const t = `<div data-sigil-chatable>${e.currentTarget.innerHTML}</div>`;
-    this.showWhisperDialog(this.object.parent, t);
+    const e = `<div data-sigil-chatable>${a.currentTarget.innerHTML}</div>`;
+    this.showWhisperDialog(this.object.parent, e);
   }
-  activateListeners(e) {
-    super.activateListeners(e), e.find(".read-aloud").click(this._onClickReadAloud.bind(this));
+  activateListeners(a) {
+    super.activateListeners(a), a.find(".read-aloud").click(this._onClickReadAloud.bind(this)), this?.document?.parent?.flags?.sigil?.variations && a[0].querySelectorAll("[data-option][data-variation]").forEach((t) => {
+      const e = t.dataset.variation, s = t.dataset.option, i = this.document.parent.flags.sigil.variations.find(
+        (n) => n.name === e
+      )?.option;
+      i && s !== i && (t.style.display = "none");
+    });
   }
 };
-d(N, "SigilJournalSheetPage");
-let O = N;
-const L = class L extends JournalImagePageSheet {
+u(M, "SigilJournalSheetPage");
+let w = M;
+const $ = class $ extends JournalImagePageSheet {
 };
-d(L, "SigilJournalSheetImagePage");
-let C = L;
+u($, "SigilJournalSheetImagePage");
+let S = $;
 Hooks.once("init", () => {
-  Object.defineProperty(S, "name", {
-    value: `${D}`
-  }), Object.defineProperty(O, "name", {
-    value: `${D}Page`
-  }), Object.defineProperty(C, "name", {
-    value: `${D}ImagePage`
-  }), DocumentSheetConfig.registerSheet(JournalEntry, c, S, {
+  Object.defineProperty(k, "name", {
+    value: `${_}`
+  }), Object.defineProperty(w, "name", {
+    value: `${_}Page`
+  }), Object.defineProperty(S, "name", {
+    value: `${_}ImagePage`
+  }), DocumentSheetConfig.registerSheet(JournalEntry, d, k, {
     type: "base",
     makeDefault: !1,
     canBeDefault: !1,
-    label: `${k}`
-  }), DocumentSheetConfig.registerSheet(JournalEntryPage, c, O, {
+    label: `${v}`
+  }), DocumentSheetConfig.registerSheet(JournalEntryPage, d, w, {
     type: "text",
     makeDefault: !1,
     canBeDefault: !1,
-    label: `${k}`
-  }), DocumentSheetConfig.registerSheet(JournalEntryPage, c, C, {
+    label: `${v}`
+  }), DocumentSheetConfig.registerSheet(JournalEntryPage, d, S, {
     type: "image",
     makeDefault: !1,
     canBeDefault: !1,
-    label: `${k}`
+    label: `${v}`
   });
 });
-console.log(`[${c}@${V}...] successfully loaded!`);
+console.log(`[${d}@${U}...] successfully loaded!`);
