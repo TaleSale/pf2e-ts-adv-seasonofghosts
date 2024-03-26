@@ -454,8 +454,120 @@
                 "img": "modules/pf2e-ts-adv-seasonofghosts/198/assets/tokens/hazard.webp",
                 "scale": 1.2
             }
+        },
+        "CwU5qtPvGmHYvlzN": {
+          "actor": "modules/pf2e-ts-adv-seasonofghosts/199/assets/art/PZO90199%20UnwelcomingFacade.webp",
+          "token": {
+            "img": "modules/pf2e-ts-adv-seasonofghosts/199/assets/tokens/hazard.webp",
+            "scale": 1.2
+          }
+        },
+        "ujCqaRPlw23baewz": {
+          "actor": "modules/pf2e-ts-adv-seasonofghosts/199/assets/tokens/hazard.webp",
+          "token": {
+            "img": "modules/pf2e-ts-adv-seasonofghosts/199/assets/tokens/hazard.webp",
+            "scale": 1.2
+          }
+        },
+        "BQvtFFZIfICblybJ": {
+          "actor": "modules/pf2e-ts-adv/art_token/portraits/undead/ghostly/dread-wraith.webp",
+          "token": {
+            "img": "modules/pf2e-ts-adv-seasonofghosts/199/assets/tokens/Dread%20Wraith.webp",
+            "scale": 1.5
+          }
+        },
+        "HxgtQw1rldkMf83o": {
+          "actor": "modules/pf2e-ts-adv-seasonofghosts/199/assets/art/PZO90199%20False%20Governor.webp",
+          "token": {
+            "img": "modules/pf2e-ts-adv-seasonofghosts/199/assets/tokens/PZO90199%20False%20Governor.webp",
+            "scale": 1.5
+          }
+        },
+        "P6BnwxID1zxZlt9D": {
+          "actor": "modules/pf2e-ts-adv-seasonofghosts/199/assets/art/PZO90199%20Meigui%20Ci.webp",
+          "token": {
+            "img": "modules/pf2e-ts-adv-seasonofghosts/199/assets/tokens/PZO90199%20Meigui%20Ci.webp",
+            "scale": 1.5
+          }
+        },
+        "amLD0YfFcG8ejrME": {
+          "actor": "modules/pf2e-ts-adv-seasonofghosts/199/assets/art/PZO90199%20ALGRIEVER.webp",
+          "token": {
+            "img": "modules/pf2e-ts-adv-seasonofghosts/199/assets/tokens/PZO90199%20ALGRIEVER.webp",
+            "scale": 1.5
+          }
+        },
+        "USMiwD8crKdeFybh": {
+          "actor": "modules/pf2e-ts-adv-seasonofghosts/199/assets/art/PZO90199%20PATH%20MAIDEN.webp",
+          "token": {
+            "img": "modules/pf2e-ts-adv-seasonofghosts/199/assets/tokens/PZO90199%20PATH%20MAIDEN.webp",
+            "scale": 1.5
+          }
+        },
+        "3Hwt7nNXIBlDovJi": {
+          "actor": "modules/pf2e-ts-adv-seasonofghosts/199/assets/art/PZO90199%20PATH%20MAIDEN.webp",
+          "token": {
+            "img": "modules/pf2e-ts-adv-seasonofghosts/199/assets/tokens/PZO90199%20PATH%20MAIDEN.webp",
+            "scale": 1.5
+          }
+        },
+        "DueMGlf6tX1bqwSS": {
+          "actor": "modules/pf2e-ts-adv-seasonofghosts/199/assets/tokens/hazard.webp",
+          "token": {
+            "img": "modules/pf2e-ts-adv-seasonofghosts/199/assets/tokens/hazard.webp",
+            "scale": 1.2
+          }
+        },
+        "K68BqK1Ero3x8NsK": {
+          "actor": "modules/pf2e-ts-adv-seasonofghosts/199/assets/art/PZO90199%20IMPRECASIA.webp",
+          "token": {
+            "img": "modules/pf2e-ts-adv-seasonofghosts/199/assets/tokens/PZO90199%20IMPRECASIA.webp",
+            "scale": 1.5
+          }
+        },
+        "QZcSgUKKxaBe8OM1": {
+          "actor": "modules/pf2e-ts-adv-seasonofghosts/199/assets/art/PZO90199%20GURGLEGUT.webp",
+          "token": {
+            "img": "modules/pf2e-ts-adv-seasonofghosts/199/assets/tokens/PZO90199%20GURGLEGUT.webp",
+            "scale": 2
+          }
+        },
+        "1zClr6JrKhMo2xCu": {
+          "actor": "modules/pf2e-ts-adv-seasonofghosts/199/assets/art/PZO90199%20ARGYRZEI.webp",
+          "token": {
+            "img": "modules/pf2e-ts-adv-seasonofghosts/199/assets/tokens/PZO90199%20ARGYRZEI.webp",
+            "scale": 1.5
+          }
+        },
+        "MNqc1mJwPOOfjoVr": {
+          "actor": "modules/pf2e-ts-adv-seasonofghosts/199/assets/art/PZO90199%20SHISAGISHIN.webp",
+          "token": {
+            "img": "modules/pf2e-ts-adv-seasonofghosts/199/assets/tokens/PZO90199%20SHISAGISHIN.webp",
+            "scale": 1.5
+          }
+        },
+        "PLV1wW0Aa5SNUQM4": {
+          "actor": "modules/pf2e-ts-adv-seasonofghosts/199/assets/art/PZO90199%20Shan-BaoHeh(MonstrousPortrait).webp",
+          "token": {
+            "img": "modules/pf2e-ts-adv-seasonofghosts/199/assets/tokens/PZO90199%20Shan-BaoHeh(MonstrousPortrait).webp",
+            "scale": 1.5
+          }
+        },
+        "ONN4yz1NzvvCGBUv": {
+          "actor": "modules/pf2e-ts-adv-seasonofghosts/199/assets/art/PZO90199%20MEI%20LI%20REN.webp",
+          "token": {
+            "img": "modules/pf2e-ts-adv-seasonofghosts/199/assets/tokens/PZO90199%20MEI%20LI%20REN.webp",
+            "scale": 1.5
+          }
+        },
+        "UIdOFWDyWh9ER1RZ": {
+          "actor": "modules/pf2e-ts-adv-seasonofghosts/199/assets/art/Silkwasp%20Bandits.webp",
+          "token": {
+            "img": "modules/pf2e-ts-adv-seasonofghosts/199/assets/tokens/Silkwasp%20Bandits.webp",
+            "scale": 1.5
+          }
         }
-    },
+      },
     "pathfinder-bestiary": {
         "BKPRkJgq7ehsW7uX": {
             "actor": "modules/pf2e-ts-adv-seasonofghosts/196/assets/art/Giant%20Centipede.webp",
@@ -596,8 +708,15 @@
                 "img": "modules/pf2e-ts-adv-seasonofghosts/198/assets/tokens/War%20Horse.webp",
                 "scale": 1.5
             }
+        },
+        "SUpy8sleRwi2Egsq": {
+          "actor": "modules/pf2e-ts-adv/art_token/portraits/plant/fungal/drakauthix.webp",
+          "token": {
+            "img": "modules/pf2e-ts-adv-seasonofghosts/199/assets/tokens/Drakauthix.webp",
+            "scale": 1.5
+          }
         }
-    },
+      },
     "pathfinder-bestiary-2": {
         "hFbfXmjMkGEzMkQ1": {
             "actor": "modules/pf2e-ts-adv-seasonofghosts/196/assets/art/Sparrow.webp",
@@ -703,8 +822,36 @@
                 "img": "modules/pf2e-ts-adv-seasonofghosts/198/assets/tokens/Vanth.webp",
                 "scale": 3
             }
+        },
+        "iLZpGlyBWxS4Idbi": {
+          "actor": "modules/pf2e-ts-adv/art_token/portraits/bestial/reptilian/emperor-cobra.webp",
+          "token": {
+            "img": "modules/pf2e-ts-adv-seasonofghosts/199/assets/tokens/Emperor%20Cobra.webp",
+            "scale": 1.5
+          }
+        },
+        "n6cv7eCzPSs4dbHn": {
+          "actor": "modules/pf2e-ts-adv-seasonofghosts/199/assets/art/PZO90199%20AMAI.webp",
+          "token": {
+            "img": "modules/pf2e-ts-adv-seasonofghosts/199/assets/tokens/PZO90199%20AMAI.webp",
+            "scale": 1.5
+          }
+        },
+        "DEo5AEY1i9s0kWYZ": {
+          "actor": "modules/pf2e-ts-adv-seasonofghosts/199/assets/art/PZO90199%20ISORI.webp",
+          "token": {
+            "img": "modules/pf2e-ts-adv-seasonofghosts/199/assets/tokens/PZO90199%20ISORI.webp",
+            "scale": 1.5
+          }
+        },
+        "7EppoGdIcmd0AV9B": {
+          "actor": "modules/pf2e-ts-adv-seasonofghosts/199/assets/art/Onidoshi.webp",
+          "token": {
+            "img": "modules/pf2e-ts-adv-seasonofghosts/199/assets/tokens/Onidoshi.webp",
+            "scale": 1.5
+          }
         }
-    },
+      },
     "pathfinder-bestiary-3": {
         "aepfNXXy2juozgzB": {
             "actor": "modules/pf2e-ts-adv-seasonofghosts/196/assets/art/Noodles.webp",
@@ -789,8 +936,29 @@
                 "img": "modules/pf2e-ts-adv-seasonofghosts/198/assets/tokens/Arboreal%20Reaper.webp",
                 "scale": 1.5
             }
+        },
+        "8S088wbZjUhx6IB7": {
+          "actor": "modules/pf2e-ts-adv-seasonofghosts/199/assets/art/Khravgodon.webp",
+          "token": {
+            "img": "modules/pf2e-ts-adv-seasonofghosts/199/assets/tokens/Khravgodon.webp",
+            "scale": 1.5
+          }
+        },
+        "qnFiUNUyH0zuG6hj": {
+          "actor": "modules/pf2e-ts-adv-seasonofghosts/199/assets/art/Quintessivore.webp",
+          "token": {
+            "img": "modules/pf2e-ts-adv-seasonofghosts/199/assets/tokens/Quintessivore.webp",
+            "scale": 2
+          }
+        },
+        "pCDp2hdim12wonW5": {
+          "actor": "modules/pf2e-ts-adv-seasonofghosts/199/assets/art/Occult%20Living%20Rune.webp",
+          "token": {
+            "img": "modules/pf2e-ts-adv-seasonofghosts/199/assets/tokens/Occult%20Living%20Rune.webp",
+            "scale": 1.5
+          }
         }
-    },
+      },
     "hazards": {
         "nO4osrBRnpWKFCMP": {
             "actor": "modules/pf2e-ts-adv-seasonofghosts/196/assets/tokens/hazard.webp",
@@ -835,8 +1003,22 @@
                 "img": "modules/pf2e-ts-adv-seasonofghosts/198/assets/tokens/Servant%20(Human).webp",
                 "scale": 1.5
             }
+        },
+        "vkLhqX5oR1t89puZ": {
+          "actor": "modules/pf2e-ts-adv-seasonofghosts/199/assets/art/PZO90199%20KuonLo.webp",
+          "token": {
+            "img": "modules/pf2e-ts-adv-seasonofghosts/199/assets/tokens/PZO90199%20KuonLo.webp",
+            "scale": 1.5
+          }
+        },
+        "zQfufnnLCTzQ165S": {
+          "actor": "modules/pf2e-ts-adv-seasonofghosts/199/assets/art/Silkwasp%20Bandits.webp",
+          "token": {
+            "img": "modules/pf2e-ts-adv-seasonofghosts/199/assets/tokens/Silkwasp%20Bandits.webp",
+            "scale": 1.5
+          }
         }
-    },
+      },
     "book-of-the-dead-bestiary": {
         "VNego1px6HN8mtUl": {
             "actor": "modules/pf2e-ts-adv-seasonofghosts/196/assets/tokens/hazard.webp",
@@ -907,6 +1089,41 @@
                 "img": "modules/pf2e-ts-adv-seasonofghosts/197/assets/tokens/Kalen%20Bray.webp",
                 "scale": 1.5
             }
+        },
+        "xxFiRpQdvbKd0P12": {
+          "actor": "modules/pf2e-ts-adv-seasonofghosts/199/assets/art/PZO90199%20HungryGhost.webp",
+          "token": {
+            "img": "modules/pf2e-ts-adv-seasonofghosts/199/assets/tokens/PZO90199%20HungryGhost.webp",
+            "scale": 1.5
+          }
+        },
+        "ZSrMFLrb5CzFH5WX": {
+          "actor": "modules/pf2e-ts-adv-seasonofghosts/199/assets/art/PZO90199%20Jiang%20Shi.webp",
+          "token": {
+            "img": "modules/pf2e-ts-adv-seasonofghosts/199/assets/tokens/PZO90199%20Jiang%20Shi.webp",
+            "scale": 1.5
+          }
+        },
+        "Y2Fiu9T1xwSBPVTV": {
+          "actor": "modules/pf2e-ts-adv-seasonofghosts/199/assets/art/PZO90199%20Corpsewood.webp",
+          "token": {
+            "img": "modules/pf2e-ts-adv-seasonofghosts/199/assets/tokens/PZO90199%20Corpsewood.webp",
+            "scale": 3
+          }
+        },
+        "VYLTAIVA9qUsbujo": {
+          "actor": "modules/pf2e-ts-adv-seasonofghosts/199/assets/art/Willowshore%20Waldgeist.webp",
+          "token": {
+            "img": "modules/pf2e-ts-adv-seasonofghosts/199/assets/tokens/Willowshore%20Waldgeist.webp",
+            "scale": 1.5
+          }
+        },
+        "lhzNUX83TTYpJuma": {
+          "actor": "modules/pf2e-ts-adv-seasonofghosts/199/assets/art/PZO90199%20Unlived%20Life.webp",
+          "token": {
+            "img": "modules/pf2e-ts-adv-seasonofghosts/199/assets/tokens/PZO90199%20Unlived%20Life.webp",
+            "scale": 1.5
+          }
         }
-    }
+      }
 }
