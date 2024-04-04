@@ -668,7 +668,7 @@
             }
         },
         "k3Lt3bWBadXvlIbG": {
-            "actor": "modules/pf2e-ts-adv-seasonofghosts/197/assets/art/Poltergeist.webp",
+            "actor": "modules/pf2e-ts-adv/art_token/portraits/undead/ghostly/poltergeist.webp",
             "token": {
                 "img": "modules/pf2e-ts-adv-seasonofghosts/197/assets/tokens/Poltergeist.webp",
                 "scale": 1.5
